@@ -1,0 +1,117 @@
+{
+  "personal_info": {
+    "name": "Bob Wilson",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Canada"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [],
+    "certifications": [
+      {
+        "name": "Statistics",
+        "institution": "University",
+        "year_obtained": ""
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Retired",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "Canada"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Professional Geoscientist",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Commercial Ships Captain",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Service Station Owner",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Volunteered at homeless shelter",
+      "role": "",
+      "description": "",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Avid snowmobiler",
+      "role": "",
+      "description": "Participated in snowmobiling for 55 years.",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "Retired",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

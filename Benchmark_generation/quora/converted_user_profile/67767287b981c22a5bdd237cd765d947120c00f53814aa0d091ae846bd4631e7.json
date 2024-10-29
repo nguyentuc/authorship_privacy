@@ -1,0 +1,161 @@
+{
+  "personal_info": {
+    "name": "Tony Twillie",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Gretna",
+      "state": "LA",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "University of New Orleans",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "Louisiana State University",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "University of Southern Mississippi",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "Slidell High School",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Emcee/DJ/Entertainment Director",
+      "company": "Quora",
+      "start_date": "2001",
+      "end_date": "present",
+      "location": {
+        "city": "Gretna",
+        "state": "LA",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Sports Blog Contributor",
+        "company": "Various",
+        "start_date": "2016",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Agent",
+        "company": "New York Life Insurance Company",
+        "start_date": "2022",
+        "end_date": "2023",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Contributor/Writer",
+        "company": "WhoDatDish.com",
+        "start_date": "2016",
+        "end_date": "2020",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "MC",
+        "company": "Señor Frog's",
+        "start_date": "1995",
+        "end_date": "1997",
+        "location": {
+          "city": "Cancun",
+          "state": "",
+          "country": "Mexico"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "MC",
+        "company": "Cat's Meow Karaoke",
+        "start_date": "",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Baseball Coach",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {}
+}

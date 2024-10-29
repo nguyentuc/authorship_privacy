@@ -1,0 +1,94 @@
+{
+  "personal_info": {
+    "name": "Ian De Pagie",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Palermo",
+      "state": "",
+      "country": "Italy"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Public Administration",
+    "university": [
+      {
+        "name": "University of Palermo",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Food Writer",
+      "company": "Nasuki.guru",
+      "start_date": "2016",
+      "end_date": "present",
+      "location": {
+        "city": "Palermo",
+        "state": "",
+        "country": "Italy"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Linguistic Consulent",
+        "company": "Printea",
+        "start_date": "2017",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Italian",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "French",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "Dutch",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

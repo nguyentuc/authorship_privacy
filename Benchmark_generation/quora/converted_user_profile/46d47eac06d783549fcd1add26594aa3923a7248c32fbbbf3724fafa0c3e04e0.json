@@ -1,0 +1,142 @@
+{
+    "personal_info": {
+        "name": "Nikhil Datar",
+        "email": "",
+        "age": null,
+        "gender": "",
+        "location": {
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "country": "India"
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "MD DNB FCPS DGO LLB DHA",
+        "university": [
+            {
+                "name": "University of Mumbai",
+                "degree": "MD DNB FCPS DGO LLB DHA",
+                "major": "",
+                "start_year": null,
+                "end_year": 1996,
+                "GPA": null
+            },
+            {
+                "name": "Seth G.S. Medical College",
+                "degree": "",
+                "major": "",
+                "start_year": null,
+                "end_year": null,
+                "GPA": null
+            },
+            {
+                "name": "Grant Medical College and Sir Jamshedjee Jeejeebhoy Group of Hospitals",
+                "degree": "",
+                "major": "",
+                "start_year": null,
+                "end_year": null,
+                "GPA": null
+            },
+            {
+                "name": "Parle Tilak Vidyalaya",
+                "degree": "",
+                "major": "",
+                "start_year": null,
+                "end_year": null,
+                "GPA": null
+            }
+        ],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Medical Director and Senior Gynaecologist",
+            "company": "Cloudnine Hospital",
+            "start_date": "2019",
+            "end_date": "present",
+            "location": {
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India"
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Consultant Gynaecologist and Partner",
+                "company": "Malad, Mumbai",
+                "start_date": "2012",
+                "end_date": "present",
+                "location": {
+                    "city": "Mumbai",
+                    "state": "Maharashtra",
+                    "country": "India"
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "Former Consultant Gynaecologist",
+                "company": "Dr. Balabhai Nanavati Hospital",
+                "start_date": "2005",
+                "end_date": "2015",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "Former Consultant Gynaecologist and Owner",
+                "company": "",
+                "start_date": "",
+                "end_date": "",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": [
+            {
+                "language": "Marathi",
+                "proficiency_level": "Fluent"
+            },
+            {
+                "language": "Hindi",
+                "proficiency_level": "Fluent"
+            },
+            {
+                "language": "Gujarati",
+                "proficiency_level": "Fluent"
+            }
+        ]
+    },
+    "projects": [],
+    "research": {
+        "interests": [],
+        "publications": []
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "Mumbai, Maharashtra, India",
+        "desired_job_role": "",
+        "willing_to_relocate": false,
+        "employment_type": "",
+        "salary_expectations": null
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": ""
+    }
+}

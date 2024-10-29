@@ -1,0 +1,103 @@
+{
+  "personal_info": {
+    "name": "Trausti Thor Johannsson",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Iceland"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Computer Science Education",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Developer",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Technical Consultant",
+        "company": "Sun Microsystems",
+        "start_date": "2000",
+        "end_date": "2002",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "MySQL",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "iOS Application Development",
+        "proficiency_level": "Intermediate"
+      },
+      {
+        "skill_name": "Linux",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Objective-C",
+        "proficiency_level": "Experienced"
+      },
+      {
+        "skill_name": "Web Development",
+        "proficiency_level": "Decent"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill_name": "Social Advice",
+        "proficiency_level": "Novice"
+      }
+    ],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Technology",
+      "Space",
+      "Science",
+      "Political Science"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "iOS Developer",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

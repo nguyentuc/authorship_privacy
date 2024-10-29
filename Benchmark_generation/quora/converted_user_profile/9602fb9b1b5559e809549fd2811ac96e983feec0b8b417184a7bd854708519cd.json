@@ -1,0 +1,168 @@
+{
+  "personal_info": {
+    "name": "William Wallace",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Los Angeles County",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "Various (consultant/contract)",
+        "degree": "",
+        "major": "Engineering",
+        "start_year": 1986,
+        "end_year": 1986,
+        "GPA": null
+      },
+      {
+        "name": "Computer Science",
+        "degree": "",
+        "major": "",
+        "start_year": 1990,
+        "end_year": 1990,
+        "GPA": null
+      },
+      {
+        "name": "",
+        "degree": "",
+        "major": "Psychology",
+        "start_year": 1995,
+        "end_year": 1995,
+        "GPA": null
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Hypnosis Teacher",
+        "institution": "",
+        "year_obtained": null
+      },
+      {
+        "name": "Certified NLP Teacher",
+        "institution": "Hypnotherapy",
+        "year_obtained": null
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Senior Electronic Design Engineer",
+      "company": "Lockheed Aerospace",
+      "start_date": "2010",
+      "end_date": "present",
+      "location": {
+        "city": "Los Angeles County",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Real Estate Agent",
+        "company": "",
+        "start_date": "2010",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Digerati Consultant",
+        "company": "Various (consultant/contract)",
+        "start_date": "1995",
+        "end_date": "2021",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Network Design Consultant Company Owner",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Drywall Hanger",
+        "company": "Construction Company",
+        "start_date": "1969",
+        "end_date": "1973",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Landlord",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Retired",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

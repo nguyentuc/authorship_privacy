@@ -1,0 +1,99 @@
+{
+  "personal_info": {
+    "name": "Andrew Chin",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Montréal",
+      "state": "QC",
+      "country": "Canada"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Bachelor's",
+    "university": [
+      {
+        "name": "Brigham Young University",
+        "degree": "Bachelor's",
+        "major": "",
+        "start_year": null,
+        "end_year": 2021,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "User on Quora",
+      "company": "Quora",
+      "start_date": "December 2013",
+      "end_date": "",
+      "location": {
+        "city": "Montréal",
+        "state": "QC",
+        "country": "Canada"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Private pilot ASEL with an instrument rating",
+        "proficiency_level": "Certified"
+      },
+      {
+        "skill_name": "Cessna 172 pilot in training",
+        "proficiency_level": "In Training"
+      },
+      {
+        "skill_name": "Instrument rated pilot, complex + high performance",
+        "proficiency_level": "Certified"
+      }
+    ],
+    "soft_skills": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Aviation",
+      "Golf",
+      "Air Travel"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Men’s Golf Team",
+      "role": "Member",
+      "description": "Participates in golf competitions",
+      "start_date": "2017",
+      "end_date": "present"
+    },
+    {
+      "activity_name": "Full-Time Missionary",
+      "role": "Missionary",
+      "description": "Serves in Canada Montreal Mission",
+      "start_date": "2020",
+      "end_date": "present"
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

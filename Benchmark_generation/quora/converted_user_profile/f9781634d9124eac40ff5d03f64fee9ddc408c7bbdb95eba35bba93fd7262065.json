@@ -1,0 +1,94 @@
+{
+  "personal_info": {
+    "name": "Pramod Kumar",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Bachelor's",
+    "university": [
+      {
+        "name": "Punjab Engg College",
+        "degree": "Bachelor of Engineering",
+        "major": "Civil Engineering",
+        "start_year": null,
+        "end_year": 1977,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Founder",
+      "company": "Optionsnext.com",
+      "start_date": "2018",
+      "end_date": "present",
+      "location": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Project Head",
+        "company": "Major Infrastructure Company",
+        "start_date": null,
+        "end_date": null,
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Options Trading",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Derivative Trading",
+        "proficiency_level": "Expert"
+      }
+    ],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Stock Markets",
+      "Politics of India",
+      "Hindi Poetry"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "Bengaluru, Karnataka, India",
+    "desired_job_role": "Engineer, Trader, Teacher, Author",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

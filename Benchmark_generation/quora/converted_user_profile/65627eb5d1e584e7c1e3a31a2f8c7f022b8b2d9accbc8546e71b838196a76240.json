@@ -1,0 +1,96 @@
+{
+  "personal_info": {
+    "name": "Marinette Dupαin-Cheng",
+    "email": "",
+    "age": 0,
+    "gender": "",
+    "location": {
+      "city": "Hell",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Virtual Stalker",
+      "company": "Quora",
+      "start_date": "September 2020",
+      "end_date": "present",
+      "location": {
+        "city": "Hell",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Pashto",
+        "proficiency_level": "Active"
+      },
+      {
+        "language": "Punjabi",
+        "proficiency_level": "Active"
+      },
+      {
+        "language": "Hindi-Urdu",
+        "proficiency_level": "Active"
+      },
+      {
+        "language": "Pushto",
+        "proficiency_level": "Active"
+      },
+      {
+        "language": "Arabic",
+        "proficiency_level": "Active"
+      },
+      {
+        "language": "Indonesian",
+        "proficiency_level": "Active"
+      },
+      {
+        "language": "Portuguese",
+        "proficiency_level": "Active"
+      },
+      {
+        "language": "French",
+        "proficiency_level": "Active"
+      },
+      {
+        "language": "Japanese",
+        "proficiency_level": "Active"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "personal_info": {
+    "name": "Chuck Holbrook",
+    "email": "",
+    "age": 0,
+    "gender": "",
+    "location": {
+      "city": "Humacao",
+      "state": "PR",
+      "country": "United States"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Master of Science",
+    "university": [
+      {
+        "name": "Virginia Tech",
+        "degree": "MS",
+        "major": "Human-Computer Interaction",
+        "start_year": 0,
+        "end_year": 0,
+        "GPA": 0.0
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "User Interface Architect / Consultant",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "Humacao",
+        "state": "PR",
+        "country": "United States"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "UI Architect",
+        "company": "AOL",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": [
+          "UI Consultant",
+          "Worked on online advertising"
+        ]
+      },
+      {
+        "job_title": "Software Engineer",
+        "company": "Streetdeck Llc",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "JavaScript",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "C++",
+        "proficiency_level": "Experienced"
+      },
+      {
+        "skill_name": "AngularJS",
+        "proficiency_level": "Experienced"
+      },
+      {
+        "skill_name": "Ionic Framework",
+        "proficiency_level": "Experienced"
+      }
+    ],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "Silicon Valley",
+    "desired_job_role": "JavaScript Consultant",
+    "willing_to_relocate": false,
+    "employment_type": "Self-employed",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

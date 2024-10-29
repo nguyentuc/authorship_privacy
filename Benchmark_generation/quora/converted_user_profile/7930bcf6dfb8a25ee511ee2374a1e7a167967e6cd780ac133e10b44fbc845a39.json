@@ -1,0 +1,138 @@
+{
+  "personal_info": {
+    "name": "Steven Haddock",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Toronto",
+      "state": "ON",
+      "country": "Canada"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "LL.B.",
+    "university": [
+      {
+        "name": "Osgoode Hall Law School",
+        "degree": "LL.B.",
+        "major": "Law",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "York University (Canada)",
+        "degree": "B.A.",
+        "major": "Political Science",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Compliance Officer",
+      "company": "Quora",
+      "start_date": "October 2012",
+      "end_date": "",
+      "location": {
+        "city": "Toronto",
+        "state": "ON",
+        "country": "Canada"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Law Clerk",
+        "company": "Lang Michener",
+        "start_date": "1988",
+        "end_date": "2001",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency_level": "Native"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": [
+      {
+        "title": "Top Writer",
+        "journal": "Quora",
+        "year_published": 2018,
+        "co_authors": [],
+        "abstract": ""
+      },
+      {
+        "title": "Top Writer",
+        "journal": "Quora",
+        "year_published": 2017,
+        "co_authors": [],
+        "abstract": ""
+      },
+      {
+        "title": "Top Writer",
+        "journal": "Quora",
+        "year_published": 2016,
+        "co_authors": [],
+        "abstract": ""
+      },
+      {
+        "title": "Top Writer",
+        "journal": "Quora",
+        "year_published": 2014,
+        "co_authors": [],
+        "abstract": ""
+      },
+      {
+        "title": "Published Writer",
+        "journal": "Sporting News",
+        "year_published": null,
+        "co_authors": [],
+        "abstract": ""
+      }
+    ]
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "House wiki Administrator",
+      "role": "Administrator",
+      "description": "Administrator of the House wiki on Fandom",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "Toronto, ON",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "personal_info": {
+    "name": "Ken Prince",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "New York",
+      "state": "",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "Trinity-Pawling School",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Founder",
+      "company": "Marketing Agency",
+      "start_date": "2009",
+      "end_date": "present",
+      "location": {
+        "city": "New York",
+        "state": "",
+        "country": "USA"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [
+      {
+        "skill_name": "Marketing",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Sales",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Social Media Marketing",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Inbound Marketing",
+        "proficiency_level": "Expert"
+      }
+    ],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Marketing",
+      "Technology",
+      "Design"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Traveling Around the Globe",
+      "role": "",
+      "description": "International Travel",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Photowannabe",
+      "role": "Photography",
+      "description": "",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "New York",
+    "desired_job_role": "Founder",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "personal_info": {
+    "name": "Priya Tal",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Sydney",
+      "state": "",
+      "country": "Australia"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "History",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Opinionated Indian Milf Oz. Mamacita => Apanthrope",
+      "company": "Fashion and Style",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "Sydney",
+        "state": "",
+        "country": "Australia"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Hindustani (Hindi-Urdu)",
+        "proficiency_level": "Native"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "Sydney, Australia",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

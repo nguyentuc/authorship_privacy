@@ -1,0 +1,130 @@
+{
+  "personal_info": {
+    "name": "Carl Hamilton",
+    "email": "",
+    "age": 0,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Denmark"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "M.S. in Geography & History",
+    "university": [
+      {
+        "name": "Roskilde University",
+        "degree": "M.S.",
+        "major": "Geography & History",
+        "start_year": 2019,
+        "end_year": 2021,
+        "GPA": null
+      },
+      {
+        "name": "Roskilde University",
+        "degree": "B.S.",
+        "major": "Political Science & History",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Geographer and Historian",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "Denmark"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Geodata Specialist",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Adobe Photoshop",
+        "proficiency_level": "Nearly 10 years"
+      },
+      {
+        "skill_name": "Adobe Premiere Pro Plugins",
+        "proficiency_level": "2 years"
+      }
+    ],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Danish",
+        "proficiency_level": "Knows"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Syria",
+      "Cold War technology",
+      "20th century US/Soviet military history",
+      "Vietnam",
+      "Explosive Hazards",
+      "lend-lease and Soviet industry"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Electronic music production",
+      "role": "",
+      "description": "Produced electronic music since 2003",
+      "start_date": "2003",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Competitive gaming",
+      "role": "",
+      "description": "Competitive Gamer since 2003",
+      "start_date": "2003",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Archery",
+      "role": "",
+      "description": "Been shooting a six foot historical longbow",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Film direction",
+      "role": "",
+      "description": "Directed a few short films, loves all media",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

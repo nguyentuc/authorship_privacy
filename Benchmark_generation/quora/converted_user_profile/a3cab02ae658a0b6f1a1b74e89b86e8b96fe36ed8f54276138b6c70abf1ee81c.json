@@ -1,0 +1,121 @@
+{
+    "personal_info": {
+        "name": "Corey Cole",
+        "email": "",
+        "age": 0,
+        "gender": "",
+        "location": {
+            "city": "Central California",
+            "state": "",
+            "country": ""
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "B. A.",
+        "university": [
+            {
+                "name": "University of California, Santa Barbara",
+                "degree": "B. A.",
+                "major": "",
+                "start_year": 0,
+                "end_year": 1977,
+                "GPA": 0.0
+            }
+        ],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Small Business Owner",
+            "company": "Transolar Games",
+            "start_date": "2012",
+            "end_date": "present",
+            "location": {
+                "city": "Central California",
+                "state": "",
+                "country": ""
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Lead Programmer",
+                "company": "JetSetPoker",
+                "start_date": "",
+                "end_date": "",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": [
+                    "Lead programmer for the JetSetPoker online poker site"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [
+            {
+                "skill_name": "Game Design",
+                "proficiency_level": ""
+            },
+            {
+                "skill_name": "Programming",
+                "proficiency_level": ""
+            }
+        ],
+        "soft_skills": [],
+        "languages": []
+    },
+    "projects": [
+        {
+            "project_title": "Quest for Glory",
+            "description": "Adventure Game",
+            "technologies_used": [],
+            "start_date": "",
+            "end_date": ""
+        },
+        {
+            "project_title": "Castle of Dr. Brain",
+            "description": "Adventure Game",
+            "technologies_used": [],
+            "start_date": "",
+            "end_date": ""
+        },
+        {
+            "project_title": "Shannara",
+            "description": "Adventure Game",
+            "technologies_used": [],
+            "start_date": "",
+            "end_date": ""
+        },
+        {
+            "project_title": "Hero-U",
+            "description": "PC Gaming",
+            "technologies_used": [],
+            "start_date": "",
+            "end_date": ""
+        }
+    ],
+    "research": {
+        "interests": [
+            "Probability",
+            "Economics",
+            "Game Development"
+        ],
+        "publications": []
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "Central California",
+        "desired_job_role": "Game Designer and Programmer",
+        "willing_to_relocate": false,
+        "employment_type": "",
+        "salary_expectations": 0
+    },
+    "social_links": {}
+}

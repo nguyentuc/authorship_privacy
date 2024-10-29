@@ -1,0 +1,110 @@
+{
+  "personal_info": {
+    "name": "Sarah Madden",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Washington, D.C.",
+      "state": "",
+      "country": "United States"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Master's Degree",
+    "university": [
+      {
+        "name": "University of Maryland, College Park",
+        "degree": "B.A.",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "Capital Bible Seminary, Lanham, Md.",
+        "degree": "M.A.",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Senior Technical Editor",
+      "company": "Quora",
+      "start_date": "2014",
+      "end_date": "present",
+      "location": {
+        "city": "Washington, D.C.",
+        "state": "",
+        "country": "United States"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "MS Word",
+        "proficiency_level": "Power User"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill_name": "Editing",
+        "proficiency_level": "Expert"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Koine Greek",
+        "proficiency_level": "Knowledgeable"
+      },
+      {
+        "language": "Spanish",
+        "proficiency_level": "Conversational"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Blood Drive Coordinator",
+      "role": "Blood Donor (16+ gallons)",
+      "description": "American Red Cross (national society)",
+      "start_date": "2004",
+      "end_date": "present"
+    },
+    {
+      "activity_name": "Volunteer",
+      "role": "Career Network Ministry",
+      "description": "",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "Washington, D.C.",
+    "desired_job_role": "Writer/Editor",
+    "willing_to_relocate": false,
+    "employment_type": "Gig Economy",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

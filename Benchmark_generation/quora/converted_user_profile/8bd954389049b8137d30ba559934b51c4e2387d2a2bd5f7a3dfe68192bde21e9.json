@@ -1,0 +1,138 @@
+{
+  "personal_info": {
+    "name": "Tim Dees",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "Kennewick",
+      "state": "WA",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Master of Science, Criminal Justice",
+    "university": [
+      {
+        "name": "The University of Alabama",
+        "degree": "Master of Science",
+        "major": "Criminal Justice (Practitioner's Plan)",
+        "start_year": "",
+        "end_year": 1986,
+        "GPA": ""
+      },
+      {
+        "name": "San Jose State University",
+        "degree": "BA",
+        "major": "Biological Science",
+        "start_year": 1971,
+        "end_year": 1976,
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Criminal justice technology writer and consultant",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Editor-in-chief",
+        "company": "Elsevier",
+        "start_date": "2008",
+        "end_date": "2009",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Police Officer",
+        "company": "Reno Police Department",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "Reno",
+          "state": "NV",
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Faculty",
+        "company": "Various Colleges",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": ["Taught criminal justice full-time for eight years"]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Guns and Firearms",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Pepper Spray",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Fingerprints",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Drunk Driving",
+        "proficiency_level": "Expert"
+      }
+    ],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Mensa member",
+      "role": "Member",
+      "description": "Active in Mensa since 1976, former LocSec, Certified Proctor",
+      "start_date": "1976",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

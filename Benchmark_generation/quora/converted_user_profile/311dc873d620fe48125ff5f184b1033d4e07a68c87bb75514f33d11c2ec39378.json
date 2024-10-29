@@ -1,0 +1,96 @@
+{
+  "personal_info": {
+    "name": "Tom Stagliano",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Wellesley",
+      "state": "MA",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Graduate",
+    "university": [
+      {
+        "name": "Massachusetts Institute of Technology",
+        "degree": "Undergrad and Grad",
+        "major": "Aero-Astro",
+        "start_year": 1969,
+        "end_year": 1978,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Senior Aerospace Engineer",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "Wellesley",
+        "state": "MA",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Senior Aerospace Engineer",
+        "company": "Kaman/ITT/Exelis/Harris",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": ["Group lead"]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Soccer Referee",
+      "role": "High School, College, and Adult amateur",
+      "description": "Refereeing soccer matches",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "MIT Volunteer",
+      "role": "Admissions interviewer",
+      "description": "Interview freshmen for admissions at MIT",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

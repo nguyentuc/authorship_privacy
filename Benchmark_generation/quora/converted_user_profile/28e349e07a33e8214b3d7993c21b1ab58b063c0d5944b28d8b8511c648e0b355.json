@@ -1,0 +1,81 @@
+{
+  "personal_info": {
+    "name": "Wayne Boenig",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Bachelor's degree in Business",
+    "university": [
+      {
+        "name": "University of Delaware",
+        "degree": "Bachelor's",
+        "major": "Business",
+        "start_year": "",
+        "end_year": 1984,
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Chief Investment Officer",
+      "company": "Quora",
+      "start_date": "2002",
+      "end_date": "present",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Adjunct Professor",
+        "company": "Boston University",
+        "start_date": "2004",
+        "end_date": "2008",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": ["Baseball history", "National Football League", "Cooking", "Humor"],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": "",
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

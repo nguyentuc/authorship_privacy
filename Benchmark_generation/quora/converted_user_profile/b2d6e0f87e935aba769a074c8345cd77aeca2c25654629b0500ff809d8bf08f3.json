@@ -1,0 +1,122 @@
+{
+  "personal_info": {
+    "name": "Alcatraz Dey",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Bachelors",
+    "university": [
+      {
+        "name": "National Defence Academy (NDA)",
+        "degree": "Bachelors",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Senior Narrative Designer",
+      "company": "PlaySimple Games Pvt Ltd",
+      "start_date": "2018",
+      "end_date": "present",
+      "location": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Blood Splatter Analyst",
+        "company": "Miami Metro Homicide",
+        "start_date": "2006",
+        "end_date": "2014",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Arabic",
+        "proficiency_level": "Basic"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Triathlete",
+      "role": "Participant",
+      "description": "Active involvement in triathlons",
+      "start_date": "2020",
+      "end_date": "present"
+    },
+    {
+      "activity_name": "Author",
+      "role": "Writer",
+      "description": "Author of 5 Thriller Novels, including Bangalore Psycho",
+      "start_date": "2016",
+      "end_date": "present"
+    },
+    {
+      "activity_name": "Content Marketing",
+      "role": "Writer",
+      "description": "Writing content for leading startups since 2014",
+      "start_date": "2014",
+      "end_date": "present"
+    },
+    {
+      "activity_name": "YouTuber",
+      "role": "Content Creator",
+      "description": "Amateur YouTuber",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Speaker",
+      "role": "Tedx Speaker",
+      "description": "4 time Tedx speaker",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

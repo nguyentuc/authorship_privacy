@@ -1,0 +1,120 @@
+{
+  "personal_info": {
+    "name": "Arjun Narayanan",
+    "email": "",
+    "age": 0,
+    "gender": "",
+    "location": {
+      "city": "California",
+      "state": "",
+      "country": "United States of America"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Ph.D.",
+    "university": [
+      {
+        "name": "University of Southern California",
+        "degree": "Ph.D.",
+        "major": "Organic Chemistry",
+        "start_year": 2008,
+        "end_year": 2014,
+        "GPA": null
+      },
+      {
+        "name": "University of California, Irvine",
+        "degree": "B.S.",
+        "major": "Chemistry",
+        "start_year": 2004,
+        "end_year": 2007,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "CMO",
+      "company": "Chemicals",
+      "start_date": "2019",
+      "end_date": "present",
+      "location": {
+        "city": "California",
+        "state": "",
+        "country": "United States of America"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Analyst",
+        "company": "",
+        "start_date": "2017",
+        "end_date": "2018",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Python",
+        "proficiency_level": "Beginner"
+      },
+      {
+        "skill_name": "R",
+        "proficiency_level": "Newbie"
+      },
+      {
+        "skill_name": "JavaScript",
+        "proficiency_level": "Newbie"
+      }
+    ],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Organic Chemistry",
+      "Medicinal Chemistry"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Musician",
+      "role": "Professional Carnatic percussionist",
+      "description": "Engaged in South Indian Classical music",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Bridge Player",
+      "role": "Amateur Recreational",
+      "description": "Participates in playing Bridge card game",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "California",
+    "desired_job_role": "Consultant",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

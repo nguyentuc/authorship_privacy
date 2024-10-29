@@ -1,0 +1,117 @@
+{
+  "personal_info": {
+    "name": "Praveen Kamath",
+    "email": "",
+    "age": 31,
+    "gender": "Male",
+    "location": {
+      "city": "Thane",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "SIES Graduate School of Technology",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": "",
+        "GPA": 0.0
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Staff Software Engineer",
+      "company": "Acquia",
+      "start_date": "2021",
+      "end_date": "present",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "RnD Engineer Sr. 1",
+        "company": "Synopsys",
+        "start_date": "2020",
+        "end_date": "2021",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Sr. Software Engineer",
+        "company": "Turtlemint",
+        "start_date": "2017",
+        "end_date": "2020",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Software Engineer",
+        "company": "Oracle Financial Services Software",
+        "start_date": "2016",
+        "end_date": "2017",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Software Engineer",
+        "company": "Zycus",
+        "start_date": "2014",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

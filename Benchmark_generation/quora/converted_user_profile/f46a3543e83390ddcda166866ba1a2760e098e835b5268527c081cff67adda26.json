@@ -1,0 +1,114 @@
+{
+  "personal_info": {
+    "name": "Diego Rodrigues",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Brazil"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "CS bachelor",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Employee",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Former flight instructor",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Unity developer",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "iOS and Android App Developer",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "PHP",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Unity",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "web and apps development",
+        "proficiency_level": ""
+      }
+    ],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Portuguese",
+        "proficiency_level": "Active"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

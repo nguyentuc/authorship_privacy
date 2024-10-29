@@ -1,0 +1,98 @@
+{
+    "personal_info": {
+        "name": "Franklin Veaux",
+        "email": "",
+        "age": 0,
+        "gender": "",
+        "location": {
+            "city": "Portland",
+            "state": "OR",
+            "country": "USA"
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "",
+        "university": [],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Small business owner, sexuality educator, writer",
+            "company": "Quora",
+            "start_date": "",
+            "end_date": "",
+            "location": {
+                "city": "Portland",
+                "state": "OR",
+                "country": "USA"
+            }
+        },
+        "previous_positions": []
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": [
+            {
+                "language": "English",
+                "proficiency_level": "Fluent"
+            }
+        ]
+    },
+    "projects": [],
+    "research": {
+        "interests": [
+            "Polyamory",
+            "Technology",
+            "Sexuality education",
+            "LGBTQ issues",
+            "Feminism",
+            "Communication",
+            "Immortality",
+            "Computer security",
+            "Public speaking",
+            "Sex",
+            "Writing"
+        ],
+        "publications": [
+            {
+                "title": "More Than Two: A Practical Guide to Ethical Polyamory",
+                "journal": "",
+                "year_published": 0,
+                "co_authors": [],
+                "abstract": ""
+            },
+            {
+                "title": "The Game Changer",
+                "journal": "",
+                "year_published": 0,
+                "co_authors": [],
+                "abstract": "A memoir of disruptive love."
+            },
+            {
+                "title": "BDSM erotica novels Nineteen Weeks, Elicitation, and Evocation",
+                "journal": "",
+                "year_published": 0,
+                "co_authors": [],
+                "abstract": ""
+            }
+        ]
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "Portland, OR",
+        "desired_job_role": "Sexuality educator, writer",
+        "willing_to_relocate": false,
+        "employment_type": "Small business owner",
+        "salary_expectations": 0
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": "www.thinkbeyond.us"
+    }
+}

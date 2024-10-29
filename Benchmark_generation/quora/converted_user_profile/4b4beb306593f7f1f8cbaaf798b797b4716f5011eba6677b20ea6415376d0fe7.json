@@ -1,0 +1,120 @@
+{
+  "personal_info": {
+    "name": "Black Coder",
+    "email": null,
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": "Earth"
+    },
+    "contact_info": {
+      "phone_number": null,
+      "preferred_contact_method": null
+    }
+  },
+  "education": {
+    "highest_degree": "Ph.D. in Computer Science & Master of Computer Applications",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Affiliate Marketing Specialist",
+      "company": "Amazon",
+      "start_date": null,
+      "end_date": null,
+      "location": {
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Senior Software Engineer",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "RND Head",
+        "company": "Research and Development",
+        "start_date": null,
+        "end_date": null,
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Web Developer",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Front-End Developer",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Full Stack Developer",
+        "company": null,
+        "start_date": null,
+        "end_date": null,
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": null,
+    "desired_job_role": null,
+    "willing_to_relocate": null,
+    "employment_type": null,
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": null,
+    "github": null,
+    "personal_website": null
+  }
+}

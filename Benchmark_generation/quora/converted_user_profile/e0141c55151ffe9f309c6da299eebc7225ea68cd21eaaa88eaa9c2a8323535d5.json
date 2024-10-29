@@ -1,0 +1,102 @@
+{
+  "personal_info": {
+    "name": "Soham Mehta",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "San Francisco Bay Area",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Founder",
+      "company": "InterviewKickstart.com",
+      "start_date": "2014",
+      "end_date": "present",
+      "location": {
+        "city": "San Francisco Bay Area",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Director of Engineering",
+        "company": "Box",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": [
+          "Coached many engineers to get Google",
+          "Helped negotiate many compensation packages",
+          "Programming Interviews",
+          "Technical Interview Questions",
+          "Software Engineering Jobs and Careers"
+        ]
+      },
+      {
+        "job_title": "Software Engineer",
+        "company": "Microsoft",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Software Engineer",
+        "company": "eBay",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": "",
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": "InterviewKickstart.com"
+  }
+}

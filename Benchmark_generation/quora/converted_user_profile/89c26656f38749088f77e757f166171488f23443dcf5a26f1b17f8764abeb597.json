@@ -1,0 +1,136 @@
+{
+  "personal_info": {
+    "name": "Antonieta Contreras",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "New York City",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "MSW",
+    "university": [
+      {
+        "name": "New York University",
+        "degree": "MSW",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": [
+      {
+        "name": "B. Cert. Neurofeedback",
+        "institution": "BCIA",
+        "year_obtained": null
+      },
+      {
+        "name": "EMDR-AC",
+        "institution": "",
+        "year_obtained": null
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Trauma therapist, author",
+      "company": "Quora",
+      "start_date": "January 2018",
+      "end_date": "",
+      "location": {
+        "city": "New York City",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Supervisor, faculty, Curriculum Chair/Co-Director",
+        "company": "Institute for Contemporary Psychotherapy",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Contributor",
+        "company": "The Mighty",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Contributor",
+        "company": "PsychCentral.com",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Contributor",
+        "company": "Psychology Today",
+        "start_date": "2024",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency_level": "Active"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Traumatization",
+      "Buddhism"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "New York City",
+    "desired_job_role": "Trauma therapist, author",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

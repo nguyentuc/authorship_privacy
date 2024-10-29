@@ -1,0 +1,166 @@
+{
+  "personal_info": {
+    "name": "Corrin Lakeland",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Auckland",
+      "state": "",
+      "country": "New Zealand"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "PhD in Computer Science",
+    "university": [
+      {
+        "name": "University of Otago",
+        "degree": "PhD",
+        "major": "Computer Science",
+        "start_year": null,
+        "end_year": 2006,
+        "GPA": null
+      },
+      {
+        "name": "Victoria University of Wellington",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "Wanganui High School",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Founder",
+      "company": "CME Connect",
+      "start_date": "2013",
+      "end_date": "present",
+      "location": {
+        "city": "Auckland",
+        "state": "",
+        "country": "New Zealand"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Owner",
+        "company": "Morris Sheetmetals",
+        "start_date": "2015",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Data Scientist",
+        "company": "Banking",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Data Scientist",
+        "company": "Loyalty",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Data Science consultant and manager",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Data Science",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Computers",
+        "proficiency_level": "using and programming since the 80s"
+      },
+      {
+        "skill_name": "Email Marketing",
+        "proficiency_level": "a bit"
+      },
+      {
+        "skill_name": "Marketing Automation",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Investing",
+        "proficiency_level": "a few modest investments"
+      },
+      {
+        "skill_name": "Personal Finance",
+        "proficiency_level": "fan of envelope-based budgeting"
+      }
+    ],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": ["Electric Vehicles", "Data Science"],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Go (board game)",
+      "role": "",
+      "description": "I have played go for many years",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

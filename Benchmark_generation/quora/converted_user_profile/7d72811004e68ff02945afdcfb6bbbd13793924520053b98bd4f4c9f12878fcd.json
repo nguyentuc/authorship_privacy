@@ -1,0 +1,115 @@
+{
+  "personal_info": {
+    "name": "Bhuvana Rameshwar",
+    "email": "",
+    "age": 0,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "University of Madras",
+        "degree": "",
+        "major": "",
+        "start_year": 0,
+        "end_year": 0,
+        "GPA": 0.0
+      },
+      {
+        "name": "Ethiraj College",
+        "degree": "",
+        "major": "",
+        "start_year": 0,
+        "end_year": 0,
+        "GPA": 0.0
+      },
+      {
+        "name": "Presidency College, Chennai",
+        "degree": "",
+        "major": "",
+        "start_year": 0,
+        "end_year": 0,
+        "GPA": 0.0
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Top Writer",
+      "company": "Quora",
+      "start_date": "March 2015",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Former Teacher",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": ["Taught English grammar", "Taught science in schools"]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Tamil",
+        "proficiency_level": "basic"
+      },
+      {
+        "language": "English",
+        "proficiency_level": "basic"
+      },
+      {
+        "language": "Hindi",
+        "proficiency_level": "basic"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Travel",
+      "Nature",
+      "Human relationships",
+      "Understanding Human Behavior"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

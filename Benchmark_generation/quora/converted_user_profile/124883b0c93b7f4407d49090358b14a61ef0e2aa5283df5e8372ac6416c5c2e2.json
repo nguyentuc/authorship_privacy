@@ -1,0 +1,61 @@
+{
+  "personal_info": {
+    "name": "Evara",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "",
+      "company": "Quora",
+      "start_date": "March 2024",
+      "end_date": "",
+      "location": {}
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Self-Improvement",
+      "Philosophy",
+      "Dating and Relationships",
+      "Friendship",
+      "Friendship Advice"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

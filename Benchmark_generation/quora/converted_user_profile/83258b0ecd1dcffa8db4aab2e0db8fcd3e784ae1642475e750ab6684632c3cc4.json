@@ -1,0 +1,65 @@
+{
+  "personal_info": {
+    "name": "Lloyd R Bass",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "Dallas",
+      "state": "TX",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Software Engineer",
+      "company": "IBM",
+      "start_date": "1987",
+      "end_date": "present",
+      "location": {
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Zombies",
+      "Law",
+      "Libertarianism",
+      "Morals and Morality",
+      "NBA"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": "",
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

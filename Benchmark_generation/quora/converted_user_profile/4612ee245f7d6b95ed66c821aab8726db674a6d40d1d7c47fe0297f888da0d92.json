@@ -1,0 +1,149 @@
+{
+  "personal_info": {
+    "name": "Heather M Payne",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "B.A.",
+    "university": [
+      {
+        "name": "The University of Texas at Tyler",
+        "degree": "B.A.",
+        "major": ["History", "Political Science"],
+        "start_year": null,
+        "end_year": 2006,
+        "GPA": null
+      },
+      {
+        "name": "Lon Morris College",
+        "degree": "",
+        "major": ["English"],
+        "start_year": null,
+        "end_year": 1999,
+        "GPA": null
+      },
+      {
+        "name": "Dulles High School",
+        "degree": "",
+        "major": [],
+        "start_year": null,
+        "end_year": 1997,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Employee",
+      "company": "Quora",
+      "start_date": "March 2017",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "History teacher",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Server",
+        "company": "LongHorn Steakhouse",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Server/Waiter",
+        "company": "Olive Garden Italian Restaurant",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Substitute Teacher",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Teacher",
+        "company": "King's Academy Christian School",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Sunday School",
+      "role": "Teacher",
+      "description": "Teaches Sunday School",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {}
+}

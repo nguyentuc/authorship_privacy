@@ -1,0 +1,97 @@
+{
+  "personal_info": {
+    "name": "Joe Zbiciak",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "Silicon Valley",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Bachelors in EE",
+    "university": [
+      {
+        "name": "",
+        "degree": "Bachelors",
+        "major": "Electrical Engineering",
+        "start_year": "",
+        "end_year": "",
+        "GPA": 0.0
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Processor, MemSys, & SoC Architect + Software Engineer",
+      "company": "Quora",
+      "start_date": "2015-01-01",
+      "end_date": "present",
+      "location": {
+        "city": "Silicon Valley",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Processor Architecture",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Memory System Architecture",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Digital Signal Processing",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Assembly Language",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "C Programming",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Algorithms",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Linux",
+        "proficiency_level": "Expert"
+      }
+    ],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

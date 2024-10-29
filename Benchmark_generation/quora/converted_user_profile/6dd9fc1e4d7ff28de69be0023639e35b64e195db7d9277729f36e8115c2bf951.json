@@ -1,0 +1,133 @@
+{
+  "personal_info": {
+    "name": "Todd Lowry",
+    "email": "string",
+    "age": "integer",
+    "gender": "string",
+    "location": {
+      "city": "Albuquerque",
+      "state": "NM",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "string",
+      "preferred_contact_method": "string"
+    }
+  },
+  "education": {
+    "highest_degree": "Masters of Music",
+    "university": [
+      {
+        "name": "University of North Texas",
+        "degree": "MME in Music Education & Philosophy",
+        "major": "Music Education",
+        "start_year": 1977,
+        "end_year": 1980,
+        "GPA": "float"
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Music director, songwriter, composer",
+      "company": "Quora",
+      "start_date": "string",
+      "end_date": "string",
+      "location": {
+        "city": "Albuquerque",
+        "state": "NM",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Baseball Stadium Organist",
+        "company": "Albuquerque Isotopes",
+        "start_date": "2005",
+        "end_date": "present",
+        "location": {
+          "city": "Albuquerque",
+          "state": "NM",
+          "country": "USA"
+        },
+        "job_responsibilities": [
+          "Playing organ music during baseball games."
+        ]
+      },
+      {
+        "job_title": "Former Director of Business Affairs",
+        "company": "Hal Leonard Publishing",
+        "start_date": "1991",
+        "end_date": "1996",
+        "location": {
+          "city": "string",
+          "state": "string",
+          "country": "string"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Music Business Attorney",
+        "company": "Hal Leonard Corporation",
+        "start_date": "1991",
+        "end_date": "1996",
+        "location": {
+          "city": "string",
+          "state": "string",
+          "country": "string"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Staff Arranger",
+        "company": "Hal Leonard Corporation",
+        "start_date": "1986",
+        "end_date": "1991",
+        "location": {
+          "city": "string",
+          "state": "string",
+          "country": "string"
+        },
+        "job_responsibilities": [
+          "Arranging music pieces for publication."
+        ]
+      },
+      {
+        "job_title": "Former Music Critic",
+        "company": "Milwaukee Journal Sentinel",
+        "start_date": "1986",
+        "end_date": "1989",
+        "location": {
+          "city": "string",
+          "state": "string",
+          "country": "string"
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "string",
+    "desired_job_role": "string",
+    "willing_to_relocate": "boolean",
+    "employment_type": "string",
+    "salary_expectations": "integer"
+  },
+  "social_links": {
+    "linkedin": "string",
+    "github": "string",
+    "personal_website": "string"
+  }
+}

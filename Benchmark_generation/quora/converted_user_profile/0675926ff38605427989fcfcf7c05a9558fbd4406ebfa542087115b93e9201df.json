@@ -1,0 +1,86 @@
+{
+  "personal_info": {
+    "name": "Dennis Watson",
+    "email": "",
+    "age": 38,
+    "gender": "male",
+    "location": {
+      "city": "Earth",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "MPA",
+    "university": [
+      {
+        "name": "University of Michigan",
+        "degree": "MPA",
+        "major": "",
+        "start_year": 2005,
+        "end_year": 2011,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Quora User",
+      "company": "Quora",
+      "start_date": "2015-12-01",
+      "end_date": "",
+      "location": {
+        "city": "Earth",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Airman",
+        "company": "U.S. Air Force",
+        "start_date": "2005-01-01",
+        "end_date": "2011-01-01",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": ["Security Forces"]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": ["Mexico Politics", "International Relations", "Fitness", "Food"],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "Earth",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

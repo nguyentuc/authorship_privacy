@@ -1,0 +1,155 @@
+{
+  "personal_info": {
+    "name": "Lisa Jordan",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": ""
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Graduated 1981",
+    "university": [],
+    "certifications": [
+      {
+        "name": "Certified Mold Remediator",
+        "institution": "Mold Remediation Services",
+        "year_obtained": ""
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Human Resources",
+      "company": "Accent American Inc",
+      "start_date": "1990",
+      "end_date": "present",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Owner - We Clean Out Squatter/eviction Houses",
+        "company": "Accent American Inc",
+        "start_date": "1988",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Owner - Water Damage and Flood Damage Restoration",
+        "company": "Accent American Inc",
+        "start_date": "1990",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Elections Clerk",
+        "company": "",
+        "start_date": "2019",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "DCO",
+        "company": "U.S. Postal Service",
+        "start_date": "2000",
+        "end_date": "2004",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Member of property managers association",
+      "role": "Owner",
+      "description": "Owner Residential Rental Properties",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Owner of rental property",
+      "role": "",
+      "description": "Owner Residential Rental Properties for over 25 years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Dog Owner",
+      "role": "",
+      "description": "Owned as many as 6 rescue dogs at a time",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Gardener",
+      "role": "",
+      "description": "Avid gardener, lives on a farm",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Married",
+      "role": "",
+      "description": "Happily married for 33+ years",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

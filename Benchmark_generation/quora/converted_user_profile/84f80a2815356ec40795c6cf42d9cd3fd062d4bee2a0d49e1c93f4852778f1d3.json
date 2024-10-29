@@ -1,0 +1,85 @@
+{
+  "personal_info": {
+    "name": "Daniel Subke",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Germany"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Breakup Coach",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "Germany"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [
+      {
+        "skill_name": "Mindful Meditation",
+        "proficiency_level": "Experienced"
+      },
+      {
+        "skill_name": "Psychology",
+        "proficiency_level": "Basic Knowledge"
+      },
+      {
+        "skill_name": "Dating and Relationships",
+        "proficiency_level": "Experienced"
+      }
+    ],
+    "languages": [
+      {
+        "language": "German",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "Old High German",
+        "proficiency_level": "Basic Knowledge"
+      },
+      {
+        "language": "English",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Spirituality",
+      "Relationships",
+      "Breaking Up"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "Breakup Coach",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {}
+}

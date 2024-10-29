@@ -1,0 +1,144 @@
+{
+    "personal_info": {
+        "name": "Alon Amit",
+        "email": "",
+        "age": "",
+        "gender": "",
+        "location": {
+            "city": "San Francisco Bay Area",
+            "state": "",
+            "country": "United States of America"
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "Ph.D.",
+        "university": [
+            {
+                "name": "Hebrew University of Jerusalem",
+                "degree": "B.Sc::M.Sc::Ph.D.",
+                "major": "Mathematics, Physics, Computer Science",
+                "start_year": "",
+                "end_year": "",
+                "GPA": ""
+            }
+        ],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Vice President, Product",
+            "company": "Intuit",
+            "start_date": "2019",
+            "end_date": "present",
+            "location": {
+                "city": "San Francisco Bay Area",
+                "state": "",
+                "country": "United States of America"
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Product Manager (Ads)",
+                "company": "Facebook",
+                "start_date": "2009",
+                "end_date": "2012",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "Group Product Manager",
+                "company": "Google",
+                "start_date": "2007",
+                "end_date": "2009",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "Cofounder",
+                "company": "Origami Logic",
+                "start_date": "",
+                "end_date": "",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [
+            {
+                "skill_name": "Programming Languages",
+                "proficiency_level": "Mostly C and Python"
+            },
+            {
+                "skill_name": "Algorithms",
+                "proficiency_level": ""
+            },
+            {
+                "skill_name": "Graph Theory",
+                "proficiency_level": ""
+            }
+        ],
+        "soft_skills": [],
+        "languages": [
+            {
+                "language": "English",
+                "proficiency_level": "Pretty well"
+            }
+        ]
+    },
+    "projects": [],
+    "research": {
+        "interests": [
+            "Mathematics Education",
+            "Linguistics",
+            "Number Theory",
+            "Statistics",
+            "Cryptography"
+        ],
+        "publications": []
+    },
+    "extracurricular_activities": [
+        {
+            "activity_name": "Math Circle educator",
+            "role": "Educator",
+            "description": "Teaching Mathematics",
+            "start_date": "",
+            "end_date": ""
+        },
+        {
+            "activity_name": "Piano Performance",
+            "role": "Occasional player",
+            "description": "Pop/Rock, Jazz and Classical Piano/Keyboards player",
+            "start_date": "",
+            "end_date": ""
+        }
+    ],
+    "preferences": {
+        "work_location": "San Francisco Bay Area",
+        "desired_job_role": "Vice President of Product",
+        "willing_to_relocate": false,
+        "employment_type": "",
+        "salary_expectations": ""
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": ""
+    }
+}

@@ -1,0 +1,76 @@
+{
+  "personal_info": {
+    "name": "Aditya Simha",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "United States of America"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Bachelor's",
+    "university": [
+      {
+        "name": "",
+        "degree": "Bachelor's",
+        "major": "Business Administration & Organizational Behavior",
+        "start_year": null,
+        "end_year": 2009,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Academic Faculty",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Crocodiles",
+      "Wildlife",
+      "Actors and Actresses",
+      "Dog Breeds",
+      "Luxury Cars",
+      "Indian Cuisine and Food",
+      "Serial Killers"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

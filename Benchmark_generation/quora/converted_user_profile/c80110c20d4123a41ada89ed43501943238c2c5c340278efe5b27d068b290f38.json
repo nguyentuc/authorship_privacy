@@ -1,0 +1,131 @@
+{
+  "personal_info": {
+    "name": "Jan M Savage",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "Wellington",
+      "state": "",
+      "country": "New Zealand"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "MA, MSc",
+    "university": [
+      {
+        "name": "Several Universities",
+        "degree": "BA, BSc, MA, MSc",
+        "major": "",
+        "start_year": "",
+        "end_year": 2002,
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Senior Software Engineer",
+      "company": "Non-Disclosure Agreements",
+      "start_date": "2023",
+      "end_date": "present",
+      "location": {
+        "city": "Wellington",
+        "state": "",
+        "country": "New Zealand"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "CS Professor",
+        "company": "Tsinghua University",
+        "start_date": "2006",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "China"
+        },
+        "job_responsibilities": ["Taught CS"]
+      },
+      {
+        "job_title": "HR Consultant",
+        "company": "various",
+        "start_date": "2006",
+        "end_date": "2012",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": ["Industrial Psychology"]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Software Development",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Computer Programming",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Dart",
+        "proficiency_level": ""
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill_name": "Critical Thinking",
+        "proficiency_level": ""
+      }
+    ],
+    "languages": [
+      {
+        "language": "Six Foreign Languages",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Chess",
+      "role": "Hustler",
+      "description": "A random park chess hustler",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Gaming",
+      "role": "Player",
+      "description": "Been playing games since 1995",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": "",
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "personal_info": {
+    "name": "Jo Welch",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Pensacola",
+      "state": "FL",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Masters in Cosmetic Science",
+    "university": [
+      {
+        "name": "UC Cincinnati",
+        "degree": "Masters",
+        "major": "Cosmetic Science",
+        "start_year": null,
+        "end_year": 2024,
+        "GPA": null
+      },
+      {
+        "name": "University of Denver",
+        "degree": "BA",
+        "major": "Business",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Director and Educator",
+      "company": "licensed cosm",
+      "start_date": "2001",
+      "end_date": "present",
+      "location": {
+        "city": "Pensacola",
+        "state": "FL",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Academic Program Director - Cosmetology",
+        "company": "Virginia College",
+        "start_date": "2016",
+        "end_date": "2018",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Subject Matter Expert - Salon Chemicals",
+        "company": "Dessange Intl.",
+        "start_date": "2011",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Field Tech Support - Professional Salon Products",
+        "company": "Zotos International",
+        "start_date": "1989",
+        "end_date": "1997",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Cosmetic Chemistry",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Manufacturing",
+        "proficiency_level": ""
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill_name": "Corporate Education",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Director of Education",
+        "proficiency_level": ""
+      }
+    ],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Power Lifting",
+      "role": "",
+      "description": "Competed in Power Lifting from 25 to 42 years old: Strength Training and Weightlifting",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Kitty Hospice care",
+      "role": "Cat Foster Parent",
+      "description": "Helping kitties get forever homes.",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "Pensacola, FL",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

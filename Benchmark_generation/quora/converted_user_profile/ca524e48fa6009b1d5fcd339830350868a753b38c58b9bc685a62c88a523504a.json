@@ -1,0 +1,206 @@
+{
+  "personal_info": {
+    "name": "Aaron Davis",
+    "email": "",
+    "age": null,
+    "gender": "male",
+    "location": {
+      "city": "Pittsboro",
+      "state": "NC",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Bachelor of Science in Electrical Engineering",
+    "university": [
+      {
+        "name": "North Carolina Agricultural and Technical State University",
+        "degree": "Bachelor of Science",
+        "major": "Electrical Engineering",
+        "start_year": null,
+        "end_year": 2025,
+        "GPA": null
+      },
+      {
+        "name": "Durham Technical Community College",
+        "degree": "A.A.S.",
+        "major": "",
+        "start_year": null,
+        "end_year": 2011,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Undergraduate Research Assistant",
+      "company": "North Carolina Agricultural and Technical State University",
+      "start_date": "2023",
+      "end_date": "present",
+      "location": {
+        "city": "Greensboro",
+        "state": "NC",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Forum Moderator",
+        "company": "Star Trek Online",
+        "start_date": "2018",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "SMART Scholar",
+        "company": "Naval Surface Warfare Center",
+        "start_date": "2024",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Microgrid Manufacturing Technician",
+        "company": "PowerSecure, Inc.",
+        "start_date": "2016",
+        "end_date": "2023",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "NREIP Intern",
+        "company": "Naval Surface Warfare Center",
+        "start_date": "2023",
+        "end_date": "2023",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Lead Safety Investigator",
+        "company": "PowerSecure, Inc.",
+        "start_date": "2022",
+        "end_date": "2023",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Electrician Apprentice",
+        "company": "White Electrical",
+        "start_date": "2015",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Electrician Helper",
+        "company": "Various Contractors",
+        "start_date": "2015",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "CW-2 Wireman",
+        "company": "IBEW Local 553",
+        "start_date": "2015",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Cashier/Bagger",
+        "company": "Lowes Foods",
+        "start_date": "2008",
+        "end_date": "2009",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency_level": "Intermediate"
+      },
+      {
+        "language": "Klingon",
+        "proficiency_level": "Basic"
+      },
+      {
+        "language": "English",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": [
+      {
+        "title": "Know Thy Enemy",
+        "journal": "Aeon 14",
+        "year_published": null,
+        "co_authors": [],
+        "abstract": ""
+      }
+    ]
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

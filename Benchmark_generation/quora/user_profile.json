@@ -1,0 +1,135 @@
+{
+    "personal_info": {
+      "name": "string",
+      "email": "string",
+      "age": "integer",
+      "gender": "string",
+      "location": {
+        "city": "string",
+        "state": "string",
+        "country": "string"
+      },
+      "contact_info": {
+        "phone_number": "string",
+        "preferred_contact_method": "string"
+      }
+    },
+    "education": {
+      "highest_degree": "string",
+      "university": [
+        {
+          "name": "string",
+          "degree": "string",
+          "major": "string",
+          "start_year": "integer",
+          "end_year": "integer",
+          "GPA": "float"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "string",
+          "institution": "string",
+          "year_obtained": "integer"
+        }
+      ]
+    },
+    "professional_experience": {
+      "current_position": {
+        "job_title": "string",
+        "company": "string",
+        "start_date": "string",
+        "end_date": "string",
+        "location": {
+          "city": "string",
+          "state": "string",
+          "country": "string"
+        }
+      },
+      "previous_positions": [
+        {
+          "job_title": "string",
+          "company": "string",
+          "start_date": "string",
+          "end_date": "string",
+          "location": {
+            "city": "string",
+            "state": "string",
+            "country": "string"
+          },
+          "job_responsibilities": [
+            "string"
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "technical_skills": [
+        {
+          "skill_name": "string",
+          "proficiency_level": "string"
+        }
+      ],
+      "soft_skills": [
+        {
+          "skill_name": "string",
+          "proficiency_level": "string"
+        }
+      ],
+      "languages": [
+        {
+          "language": "string",
+          "proficiency_level": "string"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "project_title": "string",
+        "description": "string",
+        "technologies_used": [
+          "string"
+        ],
+        "start_date": "string",
+        "end_date": "string"
+      }
+    ],
+    "research": {
+      "interests": [
+        "string"
+      ],
+      "publications": [
+        {
+          "title": "string",
+          "journal": "string",
+          "year_published": "integer",
+          "co_authors": [
+            "string"
+          ],
+          "abstract": "string"
+        }
+      ]
+    },
+    "extracurricular_activities": [
+      {
+        "activity_name": "string",
+        "role": "string",
+        "description": "string",
+        "start_date": "string",
+        "end_date": "string"
+      }
+    ],
+    "preferences": {
+      "work_location": "string",
+      "desired_job_role": "string",
+      "willing_to_relocate": "boolean",
+      "employment_type": "string",
+      "salary_expectations": "integer"
+    },
+    "social_links": {
+      "linkedin": "string",
+      "github": "string",
+      "personal_website": "string"
+    }
+  }
+  

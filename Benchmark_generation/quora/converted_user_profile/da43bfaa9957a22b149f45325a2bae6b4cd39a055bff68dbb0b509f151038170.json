@@ -1,0 +1,90 @@
+{
+  "personal_info": {
+    "name": "John Andresen",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Norway"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "California Institute of Technology",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": "",
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Professional Travel Editor",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Worked in Interpol",
+        "company": "Interpol",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency_level": ""
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Nature Photography",
+      "Winter Sports Photography",
+      "International Travel"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

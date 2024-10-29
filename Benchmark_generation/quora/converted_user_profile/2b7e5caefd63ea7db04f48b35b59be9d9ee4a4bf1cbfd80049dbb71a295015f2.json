@@ -1,0 +1,110 @@
+{
+  "personal_info": {
+    "name": "Hanlie",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "United States of America"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Ph.D. in Organic Chemistry & Supramolecular Chemistry",
+    "university": [
+      {
+        "name": "Virginia Tech",
+        "degree": "Ph.D.",
+        "major": "Organic Chemistry & Supramolecular Chemistry",
+        "start_year": "",
+        "end_year": "",
+        "GPA": ""
+      },
+      {
+        "name": "University of Pretoria",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": "",
+        "GPA": ""
+      },
+      {
+        "name": "Hoërskool Waterkloof",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": "",
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Adjunct professor in chemistry",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "United States of America"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Math and Science Tutor",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Organic Chemistry",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Supramolecular Chemistry",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Synthetic Organic Chemistry",
+        "proficiency_level": ""
+      }
+    ],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": ["Theology", "Fantasy", "Anime"],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

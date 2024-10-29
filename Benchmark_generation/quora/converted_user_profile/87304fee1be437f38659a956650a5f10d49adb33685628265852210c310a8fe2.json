@@ -1,0 +1,185 @@
+{
+  "personal_info": {
+    "name": "Amity Woodford",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "Kentucky",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Studied I Know a Little About a Lot of Stuff",
+    "university": [],
+    "certifications": [
+      {
+        "name": "Value Stream Technician",
+        "institution": "",
+        "year_obtained": 2009
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Value Stream Technician",
+      "company": "",
+      "start_date": "2009",
+      "end_date": "present",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Parenting Children with Disabilities",
+      "role": "Parent",
+      "description": "I have a daughter with Jacobsen Syndrome",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Soccer Moms",
+      "role": "Mom",
+      "description": "Mom to a soccer playing 9 year old",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Family",
+      "role": "Semi-Expert",
+      "description": "Family Semi-Expert for years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Nachos",
+      "role": "Maker",
+      "description": "Maker of Nachos for over 20 years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Cub Scouts",
+      "role": "Mom",
+      "description": "Mom of a Tiger Cub Scout",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Blue Apron",
+      "role": "Customer",
+      "description": "Customer for a year",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Married Life",
+      "role": "Married",
+      "description": "Married for 13 long years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Divorce",
+      "role": "Divorced",
+      "description": "Happily divorced for 16 years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Cocktails",
+      "role": "Drinker and maker",
+      "description": "Drinker and maker of cocktails for 19 years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Grits",
+      "role": "Maker",
+      "description": "I've made grits over 60 dozen times",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Music",
+      "role": "Listener",
+      "description": "Decades of music listening",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Food",
+      "role": "Cook",
+      "description": "Cooking for myself and others for 25 years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Drug Addiction",
+      "role": "Sibling",
+      "description": "Sibling of a drug addict",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Cranes (construction equipment)",
+      "role": "Enthusiast",
+      "description": "Crane enthusiast",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Donuts",
+      "role": "Lover",
+      "description": "Donut lover for life",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Star Wars Movies",
+      "role": "Lover",
+      "description": "Star Wars Lover",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Beaches",
+      "role": "Lover",
+      "description": "THE BEACH IS MY HAPPY PLACE",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "personal_info": {
+    "name": "Julia Reece",
+    "email": "",
+    "age": 0,
+    "gender": "female",
+    "location": {
+      "city": "Santa Barbara",
+      "state": "CA",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "M.S.W.",
+    "university": [
+      {
+        "name": "University of California, Los Angeles",
+        "degree": "M.S.W.",
+        "major": "Social Welfare",
+        "start_year": 1985,
+        "end_year": 1987,
+        "GPA": null
+      },
+      {
+        "name": "California State University, Northridge",
+        "degree": "M.S.",
+        "major": "Foods and Nutrition",
+        "start_year": 1979,
+        "end_year": 1981,
+        "GPA": null
+      },
+      {
+        "name": "Pennsylvania State University",
+        "degree": "B.A.",
+        "major": "Psychology",
+        "start_year": 1971,
+        "end_year": 1975,
+        "GPA": null
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Professional Life Coach",
+        "institution": "",
+        "year_obtained": 2007
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Professional Life Coach",
+      "company": "Quora",
+      "start_date": "2007",
+      "end_date": "present",
+      "location": {
+        "city": "Santa Barbara",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Former Online Dating Coach",
+        "company": "Professional Life Coach",
+        "start_date": "1993",
+        "end_date": "2012",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": [
+          "Provided relationship advice",
+          "Coached clients on online dating strategies"
+        ]
+      },
+      {
+        "job_title": "Meetup Organizer",
+        "company": "Meetup.com",
+        "start_date": "2009",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": [
+          "Organized events for community building"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

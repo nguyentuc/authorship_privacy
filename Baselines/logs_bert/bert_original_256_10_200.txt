@@ -1,0 +1,21 @@
+Epoch 1/10
+Train loss: 5.064011069706508, Train accuracy: 0.0502283105022831, Test accuracy: 0.16458333333333333
+Epoch 2/10
+Train loss: 4.202343995230539, Train accuracy: 0.2406392694063927, Test accuracy: 0.3145833333333333
+Epoch 3/10
+Train loss: 3.560270895276751, Train accuracy: 0.37751141552511414, Test accuracy: 0.390625
+Epoch 4/10
+Train loss: 3.1226756232125417, Train accuracy: 0.47248858447488584, Test accuracy: 0.45
+Epoch 5/10
+Train loss: 2.7931842940194267, Train accuracy: 0.5449771689497717, Test accuracy: 0.48333333333333334
+Epoch 6/10
+Train loss: 2.5484283515385218, Train accuracy: 0.593607305936073, Test accuracy: 0.5072916666666667
+Epoch 7/10
+Train loss: 2.3725482259477886, Train accuracy: 0.6324200913242009, Test accuracy: 0.5114583333333333
+Epoch 8/10
+Train loss: 2.2436541216714043, Train accuracy: 0.6614155251141552, Test accuracy: 0.5135416666666667
+Epoch 9/10
+Train loss: 2.171727861676897, Train accuracy: 0.6795662100456621, Test accuracy: 0.51875
+Epoch 10/10
+Train loss: 2.1314232894352503, Train accuracy: 0.6940639269406392, Test accuracy: 0.521875
+Test accuracy: 0.521875
