@@ -1,0 +1,101 @@
+{
+  "personal_info": {
+    "name": "Prashant Tiwari",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "B.Sc. Maths(hons.)",
+    "university": [
+      {
+        "name": "Banaras Hindu University",
+        "degree": "B.Sc.",
+        "major": "Maths",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Moderator",
+      "company": "Quora",
+      "start_date": "March 2016",
+      "end_date": "present",
+      "location": {
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "country": "India"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "CEO & Founder",
+        "company": "Easetown Services",
+        "start_date": "2017",
+        "end_date": "2019",
+        "location": {
+          "city": "Varanasi",
+          "state": "Uttar Pradesh",
+          "country": "India"
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Hindi",
+        "proficiency_level": "Knows"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Moderator, Indian Railways Space",
+      "role": "Moderator",
+      "description": "",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Moderator, Confirmtkt space",
+      "role": "Moderator",
+      "description": "Confirmed ticket moderator",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

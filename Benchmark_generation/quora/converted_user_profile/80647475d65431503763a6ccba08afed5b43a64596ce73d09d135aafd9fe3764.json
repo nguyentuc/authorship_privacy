@@ -1,0 +1,97 @@
+{
+    "personal_info": {
+        "name": "Rabiya",
+        "email": "",
+        "age": null,
+        "gender": "",
+        "location": {
+            "city": "Surat",
+            "state": "Gujarat",
+            "country": "India"
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "",
+        "university": [
+            {
+                "name": "",
+                "degree": "",
+                "major": "",
+                "start_year": null,
+                "end_year": 2025,
+                "GPA": null
+            }
+        ],
+        "certifications": [
+            {
+                "name": "CA Inter",
+                "institution": "The Institute of Chartered Accountants of India (ICAI)",
+                "year_obtained": null
+            }
+        ]
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Founder",
+            "company": "Voix Legal",
+            "start_date": "2023",
+            "end_date": "present",
+            "location": {
+                "city": "Surat",
+                "state": "Gujarat",
+                "country": "India"
+            }
+        },
+        "previous_positions": []
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": [
+            {
+                "language": "English",
+                "proficiency_level": "known"
+            }
+        ]
+    },
+    "projects": [],
+    "research": {
+        "interests": [
+            "Gender Neutrality"
+        ],
+        "publications": [
+            {
+                "title": "Research paper on Gender Neutrality",
+                "journal": "",
+                "year_published": null,
+                "co_authors": [],
+                "abstract": ""
+            }
+        ]
+    },
+    "extracurricular_activities": [
+        {
+            "activity_name": "Moot Court Competition",
+            "role": "Participant",
+            "description": "Participated in Moot Court Competition Twice.",
+            "start_date": "",
+            "end_date": ""
+        }
+    ],
+    "preferences": {
+        "work_location": "",
+        "desired_job_role": "Business and Corporate Lawyer",
+        "willing_to_relocate": false,
+        "employment_type": "",
+        "salary_expectations": null
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": ""
+    }
+}

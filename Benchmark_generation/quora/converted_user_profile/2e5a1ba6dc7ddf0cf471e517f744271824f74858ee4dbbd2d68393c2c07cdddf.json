@@ -1,0 +1,190 @@
+{
+    "personal_info": {
+        "name": "Lokenath Roy",
+        "email": "lokenath.roy@quora.com",
+        "age": null,
+        "gender": null,
+        "location": {
+            "city": "Kolkata",
+            "state": "West Bengal",
+            "country": "India"
+        },
+        "contact_info": {
+            "phone_number": null,
+            "preferred_contact_method": null
+        }
+    },
+    "education": {
+        "highest_degree": "Bachelor of Technology",
+        "university": [
+            {
+                "name": null,
+                "degree": "Bachelor of Technology",
+                "major": "Electrical Engineering",
+                "start_year": null,
+                "end_year": 2026,
+                "GPA": null
+            }
+        ],
+        "certifications": [
+            {
+                "name": "Prompt Engineering",
+                "institution": "IBM",
+                "year_obtained": 2024
+            },
+            {
+                "name": "MATLAB",
+                "institution": "MathWorks",
+                "year_obtained": 2024
+            },
+            {
+                "name": "AI in Marketing",
+                "institution": "Indian Institute of Technology, Roorkee",
+                "year_obtained": 2024
+            },
+            {
+                "name": "Data structures and Algorithms using Java",
+                "institution": "Indian Institute of Technology, Kharagpur",
+                "year_obtained": 2023
+            },
+            {
+                "name": "Introduction to Programming Using Python",
+                "institution": "Indian Institute of Technology, Madras",
+                "year_obtained": 2023
+            }
+        ]
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Chatbot Developer",
+            "company": "Telegram Messenger",
+            "start_date": "Jun 2024",
+            "end_date": null,
+            "location": {
+                "city": "India",
+                "state": null,
+                "country": null
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Content Writer",
+                "company": "Wattpad",
+                "start_date": "Oct 2023",
+                "end_date": null,
+                "location": {
+                    "city": "India",
+                    "state": null,
+                    "country": null
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "ChatBot developer",
+                "company": "Discord",
+                "start_date": "Nov 2022",
+                "end_date": null,
+                "location": {
+                    "city": "India",
+                    "state": null,
+                    "country": null
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "Content Writer",
+                "company": "Quora",
+                "start_date": "May 2020",
+                "end_date": null,
+                "location": {
+                    "city": "India",
+                    "state": null,
+                    "country": null
+                },
+                "job_responsibilities": []
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [
+            {
+                "skill_name": "Programming",
+                "proficiency_level": null
+            },
+            {
+                "skill_name": "Artificial Intelligence (AI)",
+                "proficiency_level": null
+            },
+            {
+                "skill_name": "Data Structures",
+                "proficiency_level": null
+            },
+            {
+                "skill_name": "Java",
+                "proficiency_level": null
+            },
+            {
+                "skill_name": "Python (Programming Language)",
+                "proficiency_level": null
+            },
+            {
+                "skill_name": "MATLAB",
+                "proficiency_level": null
+            }
+        ],
+        "soft_skills": [
+            {
+                "skill_name": "Organization Skills",
+                "proficiency_level": null
+            },
+            {
+                "skill_name": "Communication",
+                "proficiency_level": null
+            },
+            {
+                "skill_name": "Writing",
+                "proficiency_level": null
+            }
+        ],
+        "languages": [
+            {
+                "language": "French",
+                "proficiency_level": null
+            },
+            {
+                "language": "Bengali",
+                "proficiency_level": null
+            },
+            {
+                "language": "Japanese",
+                "proficiency_level": null
+            },
+            {
+                "language": "Assamese",
+                "proficiency_level": null
+            },
+            {
+                "language": "Hindi",
+                "proficiency_level": null
+            }
+        ]
+    },
+    "projects": [],
+    "research": {
+        "interests": [],
+        "publications": []
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "India",
+        "desired_job_role": null,
+        "willing_to_relocate": null,
+        "employment_type": null,
+        "salary_expectations": null
+    },
+    "social_links": {
+        "linkedin": "https://www.linkedin.com/in/lokenath-roy-31960525a",
+        "github": null,
+        "personal_website": null
+    }
+}

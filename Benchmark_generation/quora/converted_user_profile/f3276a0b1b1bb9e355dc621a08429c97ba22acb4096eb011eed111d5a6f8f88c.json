@@ -1,0 +1,94 @@
+{
+  "personal_info": {
+    "name": "Derrick Parker",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Dubai",
+      "state": "",
+      "country": "United Arab Emirates"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "FGV - Fundacao Getulio Vargas",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "Universidade São Judas Tadeu",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Entrepreneur",
+      "company": "DVLP",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "Dubai",
+        "state": "",
+        "country": "United Arab Emirates"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Portuguese",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "Spanish",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "Russian",
+        "proficiency_level": "Basic"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Politics",
+      "Science",
+      "International Travel",
+      "Human Trafficking"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "Dubai",
+    "desired_job_role": "Entrepreneur",
+    "willing_to_relocate": true,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

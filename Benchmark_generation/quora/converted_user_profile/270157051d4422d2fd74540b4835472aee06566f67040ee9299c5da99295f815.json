@@ -1,0 +1,96 @@
+{
+  "personal_info": {
+    "name": "David Vanderschel",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "PhD",
+    "university": [
+      {
+        "name": "Rice University",
+        "degree": "PhD",
+        "major": "Mathematics & Physics",
+        "start_year": null,
+        "end_year": 1970,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Polymath",
+      "company": "Quora",
+      "start_date": "June 2010",
+      "end_date": "",
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Manager of Software Development",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": ["Software Development Management"]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {"skill_name": "Mathematics", "proficiency_level": "Expert"},
+      {"skill_name": "Physics", "proficiency_level": "Expert"},
+      {"skill_name": "Software Development", "proficiency_level": "Expert"},
+      {"skill_name": "Computer Internals", "proficiency_level": "Expert"},
+      {"skill_name": "Electronics", "proficiency_level": "Expert"},
+      {"skill_name": "Data Cables", "proficiency_level": "Expert"},
+      {"skill_name": "Emacs", "proficiency_level": "Expert"},
+      {"skill_name": "Investing", "proficiency_level": "Experienced"}
+    ],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Numerical Analysis",
+      "Computer Graphics",
+      "Caffeine Research",
+      "Science Fiction",
+      "Engineering"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

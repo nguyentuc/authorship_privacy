@@ -1,0 +1,118 @@
+{
+  "personal_info": {
+    "name": "Chris M Smalley",
+    "email": "",
+    "age": 52,
+    "gender": "",
+    "location": {
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "BA in Law Enforcement in Technologies in Law Enforcement & Phrenology",
+    "university": [
+      {
+        "name": "Northwestern University",
+        "degree": "",
+        "major": "",
+        "start_year": 1989,
+        "end_year": 1993,
+        "GPA": null
+      },
+      {
+        "name": "University of Illinois at Chicago",
+        "degree": "",
+        "major": "Theology",
+        "start_year": 1989,
+        "end_year": 1992,
+        "GPA": null
+      },
+      {
+        "name": "South Suburban College",
+        "degree": "associate",
+        "major": "Police and Law Enforcement & Forensic Science",
+        "start_year": 1989,
+        "end_year": 1992,
+        "GPA": null
+      },
+      {
+        "name": "South Suburban College",
+        "degree": "BA",
+        "major": "Law Enforcement in Technologies in Law Enforcement & Phrenology",
+        "start_year": 1989,
+        "end_year": 1992,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "",
+      "company": "Quora",
+      "start_date": "2019-04",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Operator X",
+        "company": "Rhodia",
+        "start_date": "1996",
+        "end_date": "2014",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Chemical Handler",
+        "company": "Sherwin-Williams",
+        "start_date": "1989",
+        "end_date": "1994",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {}
+}

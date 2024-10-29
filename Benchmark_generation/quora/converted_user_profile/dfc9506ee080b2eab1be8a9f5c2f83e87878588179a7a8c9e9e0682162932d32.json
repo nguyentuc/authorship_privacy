@@ -1,0 +1,93 @@
+{
+  "personal_info": {
+    "name": "Prasanna Bhalerao",
+    "email": "",
+    "age": 43,
+    "gender": "string",
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "M. Sc. in Electronics & Physics",
+    "university": [
+      {
+        "name": "Fergusson College",
+        "degree": "M. Sc.",
+        "major": "Electronics & Physics",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Freelance ERP Integration Consultant",
+      "company": "Quora",
+      "start_date": "October 2013",
+      "end_date": "present",
+      "location": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "ERP Integration",
+        "proficiency_level": "Freelance Consultant"
+      },
+      {
+        "skill_name": "Photography",
+        "proficiency_level": "Amateur"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill_name": "Unbiased Helper",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Political Analysis",
+        "proficiency_level": "Armchair Analyst"
+      }
+    ],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Investments",
+      "Indian Politics",
+      "Cooking",
+      "Real Estate",
+      "Finance and Tax Laws",
+      "FMCG"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "string",
+    "desired_job_role": "string",
+    "willing_to_relocate": false,
+    "employment_type": "Freelance",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

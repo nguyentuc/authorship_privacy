@@ -1,0 +1,139 @@
+{
+  "personal_info": {
+    "name": "David Moe",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "Canada"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "B.Sc. in Computer Science & Firstclass with Distinction",
+    "university": [
+      {
+        "name": "University of Calgary",
+        "degree": "B.Sc. in Computer Science",
+        "major": "Computer Science",
+        "start_year": 1970,
+        "end_year": 1974,
+        "GPA": null
+      },
+      {
+        "name": "University of Calgary",
+        "degree": "B.Sc. in Chemistry & Mathematics",
+        "major": "Chemistry & Mathematics",
+        "start_year": 1966,
+        "end_year": 1970,
+        "GPA": null
+      },
+      {
+        "name": "Mount Royal College",
+        "degree": "Advanced Certificate",
+        "major": "Petroleum Land & Contract Administration",
+        "start_year": 2000,
+        "end_year": 2000,
+        "GPA": null
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Advanced Coastal Navigation Certificate",
+        "institution": "Canadian Yachting Association",
+        "year_obtained": null
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Retired",
+      "company": "",
+      "start_date": "2007",
+      "end_date": "present",
+      "location": {
+        "city": "Canadian Rockies",
+        "state": "",
+        "country": "Canada"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Business Analyst",
+        "company": "Consultants",
+        "start_date": "1975",
+        "end_date": "2015",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Chair",
+        "company": "Rocky Mountain Section at The Alpine Club of Canada",
+        "start_date": "2006",
+        "end_date": "2008",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Business Analyst",
+        "company": "Oil and Gas Industry",
+        "start_date": "1970",
+        "end_date": "2007",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Gravedigger",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

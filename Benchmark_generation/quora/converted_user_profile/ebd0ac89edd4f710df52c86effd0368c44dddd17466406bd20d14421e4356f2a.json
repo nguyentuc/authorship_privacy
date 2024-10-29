@@ -1,0 +1,108 @@
+{
+  "personal_info": {
+    "name": "Dr. Balakrishnan Ramanan",
+    "email": "",
+    "age": 0,
+    "gender": "",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "M.D in Community Medicine",
+    "university": [
+      {
+        "name": "Esic Medical College and PGIMSR Bangalore",
+        "degree": "M.D",
+        "major": "Community Medicine",
+        "start_year": 2021,
+        "end_year": 2025,
+        "GPA": 0.0
+      },
+      {
+        "name": "Indira Gandhi Medical College and Research Institute",
+        "degree": "M.B.B.S",
+        "major": "",
+        "start_year": 2016,
+        "end_year": 2021,
+        "GPA": 0.0
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Registered Medical Practitioner",
+        "institution": "",
+        "year_obtained": 2021
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Junior Resident",
+      "company": "Esic Medical College and PGIMSR Bangalore",
+      "start_date": "2022",
+      "end_date": "present",
+      "location": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "House Surgeon/ Intern",
+        "company": "Indira Gandhi Medical College and Research Institute",
+        "start_date": "2020",
+        "end_date": "2021",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Kannada",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "Tamil",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "French",
+        "proficiency_level": "Basic"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "Bengaluru, Karnataka, India",
+    "desired_job_role": "Doctor",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

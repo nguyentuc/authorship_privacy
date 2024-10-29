@@ -1,0 +1,89 @@
+{
+  "personal_info": {
+    "name": "Abir Bandyopadhyay",
+    "email": "",
+    "age": 28,
+    "gender": "",
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "AMC Engineering College",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": "",
+        "GPA": null
+      },
+      {
+        "name": "Techno India Group",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": "",
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Lead Engineer",
+      "company": "Prodapt",
+      "start_date": "2023",
+      "end_date": "present",
+      "location": {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "country": "India"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Senior Solution Integrator",
+        "company": "Ericsson",
+        "start_date": "2020",
+        "end_date": "2023",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

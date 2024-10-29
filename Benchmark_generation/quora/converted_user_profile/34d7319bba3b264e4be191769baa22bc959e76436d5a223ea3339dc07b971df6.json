@@ -1,0 +1,116 @@
+{
+  "personal_info": {
+    "name": "Awdhesh Singh",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Bachelor's",
+    "university": [
+      {
+        "name": "Indian Institute of Technology, Delhi",
+        "degree": "Bachelor's",
+        "major": "",
+        "start_year": "",
+        "end_year": 1990,
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Director",
+      "company": "Awdhesh Academy",
+      "start_date": "2018",
+      "end_date": "present",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "India"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Former IRS Officer",
+        "company": "Government of India",
+        "start_date": "1991",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "India"
+        },
+        "job_responsibilities": [
+          "Top UPSC educator Essay and Answer Writing",
+          "(Customs/GST) Commissioner"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [
+      {
+        "skill_name": "Time Management",
+        "proficiency_level": "Coach"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Hindi",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": [
+      {
+        "title": "31 Ways to Happiness",
+        "journal": "",
+        "year_published": "",
+        "co_authors": [],
+        "abstract": ""
+      },
+      {
+        "title": "Practising Spiritual Intelligence",
+        "journal": "",
+        "year_published": "",
+        "co_authors": [],
+        "abstract": ""
+      },
+      {
+        "title": "GST Made Simple",
+        "journal": "",
+        "year_published": "",
+        "co_authors": [],
+        "abstract": "Goods and Services Tax in India"
+      }
+    ]
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": "AwdheshSingh.com"
+  }
+}

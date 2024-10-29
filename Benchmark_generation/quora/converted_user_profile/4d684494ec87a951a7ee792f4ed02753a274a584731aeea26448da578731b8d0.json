@@ -1,0 +1,88 @@
+{
+    "personal_info": {
+        "name": "Chris Harrington",
+        "email": "",
+        "age": null,
+        "gender": "",
+        "location": {
+            "city": "San Francisco Bay Area",
+            "state": "",
+            "country": ""
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "Bachelor of Fine Arts",
+        "university": [
+            {
+                "name": "Academy of Art University",
+                "degree": "Bachelor of Fine Arts",
+                "major": "",
+                "start_year": null,
+                "end_year": 2011,
+                "GPA": null
+            }
+        ],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Actor, Writer, Audio Imagineer",
+            "company": "Doctor Geek's Laboratory of Applied Geekdom",
+            "start_date": "2012",
+            "end_date": "present",
+            "location": {
+                "city": "",
+                "state": "",
+                "country": ""
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Handicap Bus Driver",
+                "company": "West El Cerrito County Connection",
+                "start_date": "2002",
+                "end_date": "2005",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": []
+    },
+    "projects": [],
+    "research": {
+        "interests": [
+            "Aerospace and Aeronautical Engineering",
+            "Science Fiction",
+            "Debunking Flat Earth",
+            "Crafts (art)",
+            "Atheism",
+            "Moon Landings"
+        ],
+        "publications": []
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "",
+        "desired_job_role": "",
+        "willing_to_relocate": null,
+        "employment_type": "",
+        "salary_expectations": null
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": ""
+    }
+}

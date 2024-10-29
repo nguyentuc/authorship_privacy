@@ -1,0 +1,118 @@
+{
+    "personal_info": {
+        "name": "David Joyce",
+        "email": "",
+        "age": null,
+        "gender": "",
+        "location": {
+            "city": "Virginia",
+            "state": "",
+            "country": ""
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "Ph.D.",
+        "university": [
+            {
+                "name": "University of Pennsylvania",
+                "degree": "Ph.D.",
+                "major": "Mathematics",
+                "start_year": null,
+                "end_year": 1979,
+                "GPA": null
+            },
+            {
+                "name": "University of Michigan",
+                "degree": "B.A.",
+                "major": "Mathematics & Computer Science",
+                "start_year": null,
+                "end_year": 1973,
+                "GPA": null
+            }
+        ],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Professor Emeritus of Mathematics and Computer Science",
+            "company": "Clark University",
+            "start_date": "2019",
+            "end_date": "present",
+            "location": {
+                "city": "Virginia",
+                "state": "",
+                "country": ""
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Professor of Mathematics",
+                "company": "Clark University",
+                "start_date": "",
+                "end_date": "2019",
+                "location": {
+                    "city": "Massachusetts",
+                    "state": "Massachusetts",
+                    "country": "USA"
+                },
+                "job_responsibilities": [
+                    "Taught courses in Programming Languages",
+                    "Probability (statistics)",
+                    "Discrete Mathematics",
+                    "Linear Algebra",
+                    "Set Theory",
+                    "Differential Geometry",
+                    "Calculus",
+                    "Topology",
+                    "Algebra",
+                    "Number Theory",
+                    "Graph Theory",
+                    "Abstract Algebra",
+                    "Philosophy of Science",
+                    "Differential Equations",
+                    "Category Theory",
+                    "Mathematics Education",
+                    "Real Analysis",
+                    "Integration",
+                    "Functions",
+                    "Mathematical Analysis",
+                    "Understanding Gödel’s Incompleteness Theorem"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": []
+    },
+    "projects": [],
+    "research": {
+        "interests": [
+            "History of Mathematics",
+            "Climate Change",
+            "Evolution",
+            "Science",
+            "Genetics and Heredity",
+            "Geography"
+        ],
+        "publications": []
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "Virginia",
+        "desired_job_role": "Professor",
+        "willing_to_relocate": false,
+        "employment_type": "Full-time",
+        "salary_expectations": null
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": ""
+    }
+}

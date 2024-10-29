@@ -1,0 +1,89 @@
+{
+  "personal_info": {
+    "name": "Divya Sharma",
+    "email": "",
+    "age": 0,
+    "gender": "",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "PhD",
+    "university": [
+      {
+        "name": "Institute for Social and Economic Change",
+        "degree": "PhD",
+        "major": "Environmental Economics",
+        "start_year": 2022,
+        "end_year": 2029,
+        "GPA": null
+      },
+      {
+        "name": "Indira Gandhi National Open University (IGNOU)",
+        "degree": "M.A.",
+        "major": "Economics",
+        "start_year": null,
+        "end_year": 2017,
+        "GPA": null
+      },
+      {
+        "name": "University of Delhi",
+        "degree": "Bachelor's",
+        "major": "Economics",
+        "start_year": null,
+        "end_year": 2015,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Assistant Director (Economist)",
+      "company": "Ministry of Fisheries, Animal Husbandry and Dairying, Government of India",
+      "start_date": "2022",
+      "end_date": "present",
+      "location": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Hindi-Urdu",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

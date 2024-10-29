@@ -1,0 +1,151 @@
+{
+  "personal_info": {
+    "name": "David McPhee, Ph.D.",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "Arizona",
+      "state": "",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": "website"
+    }
+  },
+  "education": {
+    "highest_degree": "Ph.D.",
+    "university": [
+      {
+        "name": "University of Minnesota - Twin Cities",
+        "degree": "Ph.D.",
+        "major": "Psychology",
+        "start_year": 1990,
+        "end_year": 1994,
+        "GPA": null
+      },
+      {
+        "name": "Luther Northwestern Theological Seminary",
+        "degree": "D.Min.",
+        "major": "Ministry & Pastoral Care",
+        "start_year": 1980,
+        "end_year": 1985,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Consulting Psychologist and Therapist",
+      "company": "Private Clinic",
+      "start_date": "1987",
+      "end_date": "present",
+      "location": {
+        "city": "Arizona",
+        "state": "",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Retired Psychologist, Personal Coach",
+        "company": "",
+        "start_date": "2022",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Therapist, Expert Witness",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Psychotherapist",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": [
+          "Worked with kids and adults"
+        ]
+      },
+      {
+        "job_title": "Past President",
+        "company": "Minnesota Board of Medical Examiners",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "Minnesota",
+          "country": "USA"
+        },
+        "job_responsibilities": [
+          "Health Care Licensure"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Traveling",
+      "role": "Traveler",
+      "description": "Fifteen years exploring Thailand",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Photography",
+      "role": "Enthusiast",
+      "description": "Life-long photography enthusiast",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Dogs",
+      "role": "Pet Lover",
+      "description": "A human psychologist who loves dogs",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": "www.davidmcphee.net"
+  }
+}

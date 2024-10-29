@@ -1,0 +1,155 @@
+{
+  "personal_info": {
+    "name": "Nick Schön",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "London",
+      "state": "",
+      "country": "United Kingdom"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "London College of Communication",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "Haberdashers' Aske's Boys' School",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Illustrator",
+      "company": "Quora",
+      "start_date": "1990",
+      "end_date": "present",
+      "location": {
+        "city": "London",
+        "state": "",
+        "country": "United Kingdom"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Group Creative Director",
+        "company": "Saatchi and Saatchi",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": ["Television Advertising", "Advertising and Advertisements"]
+      },
+      {
+        "job_title": "Worldwide Creative Director",
+        "company": "Grey",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Former Freelancer",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "German",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "project_title": "Illustrator of children's books",
+      "description": "Illustrator of 180 children's books (and counting)",
+      "technologies_used": [],
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "project_title": "Renaming of Starburst",
+      "description": "Worked on the renaming of Starburst whilst Group CD at Saatchi & Saatchi",
+      "technologies_used": [],
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Cinema Goer",
+      "role": "",
+      "description": "Enthusiastic cinema goer.",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Classic Car Owner",
+      "role": "Tinkerer and dreamer",
+      "description": "Classic car owner, tinkerer, and dreamer.",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Landlord",
+      "role": "Owner of rental flats",
+      "description": "Landlord in London.",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "London",
+    "desired_job_role": "Illustrator",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "personal_info": {
+    "name": "Giota Detsi",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "Athens",
+      "state": "",
+      "country": "Greece"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "MSc in Physics",
+    "university": [
+      {
+        "name": "National Kapodistrian University of Athens",
+        "degree": "MSc",
+        "major": "Physics",
+        "start_year": "",
+        "end_year": 1987,
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Physics Teacher",
+      "company": "Quora",
+      "start_date": "1987",
+      "end_date": "present",
+      "location": {
+        "city": "Athens",
+        "state": "",
+        "country": "Greece"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "French",
+        "proficiency_level": ""
+      },
+      {
+        "language": "Italian",
+        "proficiency_level": ""
+      },
+      {
+        "language": "Greek",
+        "proficiency_level": ""
+      },
+      {
+        "language": "Ancient Greek",
+        "proficiency_level": ""
+      },
+      {
+        "language": "Portuguese",
+        "proficiency_level": ""
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Ancient Civilizations",
+      "Greek ancient history",
+      "History",
+      "Politics"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Museum visitor all over Europe",
+      "role": "",
+      "description": "Enjoy visiting museums related to Ancient Civilizations",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": "",
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

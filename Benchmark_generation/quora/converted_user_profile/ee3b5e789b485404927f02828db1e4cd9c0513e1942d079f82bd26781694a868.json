@@ -1,0 +1,86 @@
+{
+  "personal_info": {
+    "name": "Rohit Virmani",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "",
+      "country": "United States of America"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Chartered Accountants (CA)",
+    "university": [],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "AVP",
+      "company": "Genpact India",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": "India"
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "French",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "Italian",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "Japanese",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "Hindi",
+        "proficiency_level": "Fluent"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Social Issues",
+      "Political Dynamics",
+      "Human Behavior",
+      "International Relations",
+      "Space & Evolution"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

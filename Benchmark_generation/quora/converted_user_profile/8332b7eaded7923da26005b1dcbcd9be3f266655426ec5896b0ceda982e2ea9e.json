@@ -1,0 +1,129 @@
+{
+    "personal_info": {
+        "name": "Karen Marie Shelton",
+        "email": "",
+        "age": null,
+        "gender": "",
+        "location": {
+            "city": "Dallas",
+            "state": "TX",
+            "country": "USA"
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "Ph.D.",
+        "university": [
+            {
+                "name": "Saint Louis University",
+                "degree": "Ph.D.",
+                "major": "Business & Public Policy",
+                "start_year": null,
+                "end_year": null,
+                "GPA": null
+            },
+            {
+                "name": "Saint Louis University",
+                "degree": "MA",
+                "major": "Business & Public Policy",
+                "start_year": 1973,
+                "end_year": 1975,
+                "GPA": null
+            },
+            {
+                "name": "University of Missouri-St. Louis",
+                "degree": "B.A.",
+                "major": "Sociology & Psychology",
+                "start_year": 1973,
+                "end_year": 1973,
+                "GPA": null
+            },
+            {
+                "name": "Paul Mitchell The School",
+                "degree": "Certificate",
+                "major": "Cosmetology",
+                "start_year": null,
+                "end_year": 2008,
+                "GPA": null
+            }
+        ],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "CEO",
+            "company": "Hairboutique.com",
+            "start_date": "1997",
+            "end_date": "present",
+            "location": {
+                "city": "Dallas",
+                "state": "TX",
+                "country": "USA"
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Multi Media Magazine Consumer Hair Editor",
+                "company": "Various",
+                "start_date": "2000",
+                "end_date": "present",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "Astrologer",
+                "company": "Hairboutique.com",
+                "start_date": "1995",
+                "end_date": "present",
+                "location": {
+                    "city": "Dallas",
+                    "state": "TX",
+                    "country": "USA"
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "CrimeBeat Writer",
+                "company": "CrimeBeat",
+                "start_date": "2022",
+                "end_date": "present",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": []
+    },
+    "projects": [],
+    "research": {
+        "interests": ["Astrology"],
+        "publications": []
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "Dallas, TX",
+        "desired_job_role": "",
+        "willing_to_relocate": null,
+        "employment_type": "",
+        "salary_expectations": null
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": ""
+    }
+}

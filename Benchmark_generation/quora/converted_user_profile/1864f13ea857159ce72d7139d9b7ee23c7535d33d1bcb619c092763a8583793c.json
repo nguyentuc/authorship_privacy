@@ -1,0 +1,82 @@
+{
+  "personal_info": {
+    "name": "Madan",
+    "email": null,
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": "India"
+    },
+    "contact_info": {
+      "phone_number": null,
+      "preferred_contact_method": null
+    }
+  },
+  "education": {
+    "highest_degree": "Bsc",
+    "university": [
+      {
+        "name": "India",
+        "degree": "Bsc",
+        "major": null,
+        "start_year": null,
+        "end_year": 2011,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Community Manager | Web3 & Blockchain Enthusiast",
+      "company": "Quora",
+      "start_date": null,
+      "end_date": null,
+      "location": {
+        "city": null,
+        "state": null,
+        "country": null
+      }
+    },
+    "previous_positions": []
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency_level": "Learning"
+      },
+      {
+        "language": "Hindi",
+        "proficiency_level": "Active"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Politics",
+      "Bollywood",
+      "Cricket",
+      "Cultural preservation"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": null,
+    "desired_job_role": null,
+    "willing_to_relocate": null,
+    "employment_type": null,
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": null,
+    "github": null,
+    "personal_website": null
+  }
+}

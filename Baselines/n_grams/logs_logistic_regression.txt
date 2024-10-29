@@ -1,0 +1,20 @@
+    penalty         C    solvers  train_accuracy  eval_accuracy
+0       l1  100.0000       saga          1.0000           0.78
+1       l2  100.0000      lbfgs          1.0000           0.80
+2       l2  100.0000  newton-cg          1.0000           0.80
+3       l2  100.0000        sag          1.0000           0.78
+4       l2  100.0000       saga          1.0000           0.78
+..     ...       ...        ...             ...            ...
+58      l2    0.0001       saga          0.4525           0.30
+59    None    0.0001      lbfgs          1.0000           0.80
+60    None    0.0001  newton-cg          1.0000           0.80
+61    None    0.0001        sag          1.0000           0.78
+62    None    0.0001       saga          1.0000           0.78
+
+[63 rows x 5 columns]
+Best sovler: lbfgs, penalty:l2, best c:0.01 with eval accuracy: 0.8200
+Train and evaluate with best hyper parameters:
+/home/exouser/miniconda3/envs/AA_synthesize_dataset/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1247: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. From then on, it will always use 'multinomial'. Leave it to its default value to avoid this warning.
+  warnings.warn(
+Logistic Regression: Accuracy with 10 users: 80.00%
+================================================================================================================================================================

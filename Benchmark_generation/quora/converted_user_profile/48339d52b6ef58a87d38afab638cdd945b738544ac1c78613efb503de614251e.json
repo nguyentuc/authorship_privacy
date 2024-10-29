@@ -1,0 +1,100 @@
+{
+    "personal_info": {
+        "name": "Philip Lloyd",
+        "email": "",
+        "age": 0,
+        "gender": "",
+        "location": {
+            "city": "",
+            "state": "",
+            "country": "New Zealand"
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "",
+        "university": [
+            {
+                "name": "University of Wales Aberystwyth Prifysgol Cymru",
+                "degree": "",
+                "major": "",
+                "start_year": 0,
+                "end_year": 0,
+                "GPA": 0.0
+            }
+        ],
+        "certifications": [
+            {
+                "name": "Woolf Fisher Fellow for Excellence in Mathematics Teaching",
+                "institution": "",
+                "year_obtained": 0
+            }
+        ]
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Ex HOD Maths",
+            "company": "Epsom Girls Grammar",
+            "start_date": "",
+            "end_date": "",
+            "location": {
+                "city": "",
+                "state": "",
+                "country": "New Zealand"
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Specialist Calculus Teacher and Mentor",
+                "company": "",
+                "start_date": "",
+                "end_date": "",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": "New Zealand"
+                },
+                "job_responsibilities": [
+                    "Taught Mathematics for over 47 years",
+                    "Mentored many teachers"
+                ]
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": []
+    },
+    "projects": [],
+    "research": {
+        "interests": [
+            "Asymptotes (mathematics)"
+        ],
+        "publications": []
+    },
+    "extracurricular_activities": [
+        {
+            "activity_name": "Baroque Trumpet Soloist",
+            "role": "",
+            "description": "",
+            "start_date": "",
+            "end_date": ""
+        }
+    ],
+    "preferences": {
+        "work_location": "",
+        "desired_job_role": "",
+        "willing_to_relocate": false,
+        "employment_type": "",
+        "salary_expectations": 0
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": "www.phantomgraphs.weebly.com"
+    }
+}

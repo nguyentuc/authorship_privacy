@@ -1,0 +1,134 @@
+{
+  "personal_info": {
+    "name": "Irina Nola",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "New Orleans",
+      "state": "",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "St.Petersburg University",
+        "degree": "",
+        "major": "",
+        "start_year": 1983,
+        "end_year": 1983,
+        "GPA": null
+      },
+      {
+        "name": "Hypnotherapy Academy",
+        "degree": "",
+        "major": "",
+        "start_year": 2012,
+        "end_year": 2012,
+        "GPA": null
+      },
+      {
+        "name": "Dolores Cannon",
+        "degree": "",
+        "major": "",
+        "start_year": 2012,
+        "end_year": 2012,
+        "GPA": null
+      },
+      {
+        "name": "Brian Weiss",
+        "degree": "",
+        "major": "",
+        "start_year": 2013,
+        "end_year": 2013,
+        "GPA": null
+      },
+      {
+        "name": "Art Students League of New York",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Hypnotherapist, Past Life Regression Therapist, QHHT level 2",
+        "institution": "",
+        "year_obtained": null
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Hypnotherapist, Past Life Regression Therapist",
+      "company": "New Orleans Hypnosis",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "New Orleans",
+        "state": "",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Former Busker",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Russian",
+        "proficiency_level": "Knows"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Greek Mythology"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Facebook",
+      "role": "addict",
+      "description": "",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "New Orleans",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

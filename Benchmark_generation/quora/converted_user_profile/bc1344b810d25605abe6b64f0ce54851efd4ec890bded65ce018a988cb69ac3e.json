@@ -1,0 +1,142 @@
+{
+  "personal_info": {
+    "name": "Joe Lawson",
+    "email": "joe.lawson@quora.com",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Coldwater",
+      "state": "Mississippi",
+      "country": "United States"
+    },
+    "contact_info": {
+      "phone_number": null,
+      "preferred_contact_method": null
+    }
+  },
+  "education": {
+    "highest_degree": "Pastoral practice and Christian applications",
+    "university": [
+      {
+        "name": "Candler School of Theology - Emory University",
+        "degree": "5-year regular and 4-year advanced courses",
+        "major": null,
+        "start_year": 1990,
+        "end_year": 1999,
+        "GPA": null
+      },
+      {
+        "name": "The University of Memphis",
+        "degree": "Business Administration, Management and Operations",
+        "major": null,
+        "start_year": 1966,
+        "end_year": 1969,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Quora Top Writer 2018, Google Local Guide",
+      "company": "Quora.com, Google.com",
+      "start_date": "Jul 2017",
+      "end_date": null,
+      "location": {
+        "city": "Northwest Mississippi",
+        "state": null,
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Co-pastor",
+        "company": "Grace, Thrasher, Wheeler & Meadow Creek UM churches",
+        "start_date": "Jun 2014",
+        "end_date": null,
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Freelance Evangelist, Stand-up Philosopher, Loafer and Piddler",
+        "company": "United Methodist Church, MS Annual Conference",
+        "start_date": "Jan 1990",
+        "end_date": "Jan 2017",
+        "location": {
+          "city": "Northwest Mississippi",
+          "state": null,
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Pastor",
+        "company": "The Mooreville Charge",
+        "start_date": "Jun 2013",
+        "end_date": "Jun 2014",
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Pastor",
+        "company": "Greenleaf & Palestine United Methodist Church",
+        "start_date": "Jun 2006",
+        "end_date": "Jun 2013",
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Pastor",
+        "company": "four appointments over 22 years",
+        "start_date": "Jun 1990",
+        "end_date": "Jun 2013",
+        "location": {
+          "city": null,
+          "state": null,
+          "country": null
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "human interactions",
+      "relationships",
+      "Christianity",
+      "self-improvement"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": null,
+    "desired_job_role": null,
+    "willing_to_relocate": null,
+    "employment_type": null,
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/in/joe-lawson-80538a37",
+    "github": null,
+    "personal_website": null
+  }
+}

@@ -1,0 +1,95 @@
+{
+    "personal_info": {
+        "name": "Sam Arora",
+        "email": "",
+        "age": null,
+        "gender": "",
+        "location": {
+            "city": "Toronto",
+            "state": "ON",
+            "country": "Canada"
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "MSc Food Science",
+        "university": [
+            {
+                "name": "University of Guelph",
+                "degree": "M.Sc.",
+                "major": "Food Science",
+                "start_year": null,
+                "end_year": null,
+                "GPA": null
+            },
+            {
+                "name": "Panjab University",
+                "degree": "",
+                "major": "",
+                "start_year": null,
+                "end_year": null,
+                "GPA": null
+            }
+        ],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "Food Scientist",
+            "company": "Self-Employment",
+            "start_date": "2004",
+            "end_date": "present",
+            "location": {
+                "city": "Toronto",
+                "state": "ON",
+                "country": "Canada"
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Food Scientist, QA/QC",
+                "company": "Dairy Products",
+                "start_date": "1973",
+                "end_date": "2004",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": "Canada"
+                },
+                "job_responsibilities": []
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": []
+    },
+    "projects": [],
+    "research": {
+        "interests": [
+            "Food Science",
+            "Dairy Chemistry",
+            "Cultural Studies",
+            "Travel",
+            "History"
+        ],
+        "publications": []
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "",
+        "desired_job_role": "",
+        "willing_to_relocate": null,
+        "employment_type": "",
+        "salary_expectations": null
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": ""
+    }
+}

@@ -1,0 +1,109 @@
+{
+  "personal_info": {
+    "name": "Larry Donahue",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Albuquerque",
+      "state": "NM",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "New Mexico State University",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "Chicago-Kent College of Law",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      },
+      {
+        "name": "Oak Forest High School",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Attorney & Founder",
+      "company": "Law 4 Small Business (L4SB)",
+      "start_date": "2011",
+      "end_date": "present",
+      "location": {
+        "city": "Albuquerque",
+        "state": "NM",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Employee",
+        "company": "Deep Web Technologies",
+        "start_date": "",
+        "end_date": "",
+        "location": {},
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Employee",
+        "company": "Fatcow",
+        "start_date": "",
+        "end_date": "",
+        "location": {},
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Employee",
+        "company": "IBM",
+        "start_date": "",
+        "end_date": "",
+        "location": {},
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

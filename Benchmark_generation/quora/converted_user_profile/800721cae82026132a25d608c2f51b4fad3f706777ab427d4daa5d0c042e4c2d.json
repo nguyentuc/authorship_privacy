@@ -1,0 +1,142 @@
+{
+  "personal_info": {
+    "name": "Mark Harrison",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Maidenbower",
+      "state": "West Sussex",
+      "country": "England"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "MA",
+    "university": [
+      {
+        "name": "University of Oxford",
+        "degree": "BA, MA",
+        "major": "Mathematics and Computation",
+        "start_year": 1989,
+        "end_year": 1992,
+        "GPA": null
+      },
+      {
+        "name": "Balliol College, Oxford",
+        "degree": "",
+        "major": "",
+        "start_year": 1989,
+        "end_year": 1992,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Part-time CTO",
+      "company": "",
+      "start_date": "2022",
+      "end_date": "present",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Director of Music",
+        "company": "Church of England",
+        "start_date": "2022",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "CTO",
+        "company": "FundingKnight",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "UK"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Head of Systems",
+        "company": "Kingfisher Plc",
+        "start_date": "2000",
+        "end_date": "2002",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "UK"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Project Manager",
+        "company": "ODEON",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Technical Director",
+        "company": "Dervorguilla records",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency_level": "Native"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "CTO",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

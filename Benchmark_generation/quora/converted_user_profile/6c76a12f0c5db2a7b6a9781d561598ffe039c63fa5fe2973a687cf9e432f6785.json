@@ -1,0 +1,110 @@
+{
+  "personal_info": {
+    "name": "Quelqu'un",
+    "email": "",
+    "age": 25,
+    "gender": "Female",
+    "location": {
+      "city": "Québec",
+      "state": "",
+      "country": "Canada"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Master's Degree",
+    "university": [
+      {
+        "name": "",
+        "degree": "Master's Degree",
+        "major": "Literature",
+        "start_year": "",
+        "end_year": "",
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Teacher",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "Québec",
+        "state": "",
+        "country": "Canada"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Retail Worker",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Worker at Alpaca Farm",
+        "company": "",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "French",
+        "proficiency_level": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency_level": "Fluent"
+      },
+      {
+        "language": "German",
+        "proficiency_level": "Beginner"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Feminism",
+      "Horror",
+      "Zombie literature"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "personal_info": {
+    "name": "Leslie Perry Runnels Isbell",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "",
+      "state": "Louisiana",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Masters",
+    "university": [
+      {
+        "name": "University of Florida",
+        "degree": "BS",
+        "major": "Journalism",
+        "start_year": null,
+        "end_year": 1970,
+        "GPA": null
+      },
+      {
+        "name": "Nova University",
+        "degree": "Masters",
+        "major": "Journalism",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Employee",
+      "company": "Quora",
+      "start_date": "June 2018",
+      "end_date": "",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "CEO Owner",
+        "company": "The Easy Traveler RV CDs",
+        "start_date": "2000",
+        "end_date": "2007",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": [
+          "Tech + Production",
+          "Photographer",
+          "Writer"
+        ]
+      },
+      {
+        "job_title": "Associate Editor",
+        "company": "Citrus County Chronicle",
+        "start_date": "1983",
+        "end_date": "1984",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Copy Editor",
+        "company": "U of F Press",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {}
+}

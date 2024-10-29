@@ -1,0 +1,117 @@
+{
+  "personal_info": {
+    "name": "Jeff Lewis",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "Wichita Falls",
+      "state": "TX",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "University of Maryland, College Park",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": "",
+        "GPA": ""
+      },
+      {
+        "name": "Linganore High",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": "",
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Aerospace Engineer",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "Wichita Falls",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Cook",
+        "company": "KFC",
+        "start_date": "1990s",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Aerospace Engineering",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Private Pilot",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "DIY Handyman",
+        "proficiency_level": ""
+      },
+      {
+        "skill_name": "Shade Tree Mechanic",
+        "proficiency_level": ""
+      }
+    ],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency_level": "Basic"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Biology",
+      "Religion",
+      "Politics",
+      "Weight Loss",
+      "Aviation"
+    ],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

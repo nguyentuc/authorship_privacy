@@ -1,0 +1,173 @@
+{
+  "personal_info": {
+    "name": "David Seidman",
+    "email": "",
+    "age": "",
+    "gender": "Agender",
+    "location": {
+      "city": "Issaquah",
+      "state": "WA",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "BA/MA",
+    "university": [
+      {
+        "name": "Boston University",
+        "degree": "Bachelor's and Master's",
+        "major": "Computer Science & Cognitive Science",
+        "start_year": "",
+        "end_year": 2005,
+        "GPA": ""
+      },
+      {
+        "name": "Dartmouth College",
+        "degree": "",
+        "major": "",
+        "start_year": "",
+        "end_year": 2004,
+        "GPA": ""
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Head of Detection and Response",
+      "company": "Robinhood",
+      "start_date": "2021",
+      "end_date": "present",
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Sr Director of Threat Detection",
+        "company": "Salesforce",
+        "start_date": "2020",
+        "end_date": "2021",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Security Engineering Manager",
+        "company": "Google",
+        "start_date": "2016",
+        "end_date": "2020",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Security Program Manager",
+        "company": "Microsoft",
+        "start_date": "2005",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Security Program Manager",
+        "company": "",
+        "start_date": "2005",
+        "end_date": "2016",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency_level": "Active"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Alpha Chi Alpha",
+      "role": "Member",
+      "description": "Fraternity",
+      "start_date": "2004",
+      "end_date": ""
+    },
+    {
+      "activity_name": "BJJ and Krav Maga",
+      "role": "Practitioner",
+      "description": "Self-Defense",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Mountaineering",
+      "role": "",
+      "description": "Climbing for 8 years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Homebrewing",
+      "role": "Hobbyist",
+      "description": "For 10 years",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Parenting",
+      "role": "Parent",
+      "description": "Parent of 2",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Ironman Triathlon",
+      "role": "Competitor",
+      "description": "Finisher in CDA 2012",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": ""
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

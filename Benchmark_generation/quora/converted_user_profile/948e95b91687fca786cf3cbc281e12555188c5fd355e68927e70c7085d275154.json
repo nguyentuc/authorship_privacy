@@ -1,0 +1,181 @@
+{
+  "personal_info": {
+    "name": "Dave Haynie",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Bethany Beach",
+      "state": "DE",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "BSEE/Math",
+    "university": [
+      {
+        "name": "Carnegie Mellon University",
+        "degree": "BSEE",
+        "major": "Electrical Engineering",
+        "start_year": 1979,
+        "end_year": 1983,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Principal Computer Hardware Systems Engineer",
+      "company": "Quora",
+      "start_date": "2012",
+      "end_date": "present",
+      "location": {
+        "city": "Bethany Beach",
+        "state": "DE",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Sr. Computer Engineer",
+        "company": "Commodore/Amiga",
+        "start_date": "1983",
+        "end_date": "1994",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": [
+          "Worked on hardware systems",
+          "Wrote DiskSalv, SetCPU"
+        ]
+      },
+      {
+        "job_title": "Former Vice President, Technology",
+        "company": "",
+        "start_date": "1996",
+        "end_date": "2001",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Worked at Bell Labs",
+        "company": "Bell Labs",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Worked at Scala",
+        "company": "Scala",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Worked at Nomadio, Inc.",
+        "company": "Nomadio, Inc.",
+        "start_date": "",
+        "end_date": "",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [
+      {
+        "skill_name": "Digital Photography",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Computer Hardware Systems",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Electrical Engineering",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Audio Recording",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Digital Audio",
+        "proficiency_level": "Expert"
+      }
+    ],
+    "soft_skills": [
+      {
+        "skill_name": "Writing",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Philosophy",
+        "proficiency_level": "Expert"
+      },
+      {
+        "skill_name": "Martial Arts",
+        "proficiency_level": "Intermediate"
+      }
+    ],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": [
+      {
+        "title": "Knowledge Prize Winner",
+        "journal": "",
+        "year_published": 2016,
+        "co_authors": [],
+        "abstract": ""
+      },
+      {
+        "title": "Published Writer",
+        "journal": "Forbes",
+        "year_published": 0,
+        "co_authors": [],
+        "abstract": ""
+      }
+    ]
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

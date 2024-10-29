@@ -1,0 +1,135 @@
+{
+  "personal_info": {
+    "name": "John Bambrook",
+    "email": "",
+    "age": "",
+    "gender": "",
+    "location": {
+      "city": "Geelong",
+      "state": "Victoria",
+      "country": "Australia"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "Engineering diploma",
+    "university": [
+      {
+        "name": "Chisholm Institute",
+        "degree": "Diploma",
+        "major": "",
+        "start_year": 0,
+        "end_year": 2000,
+        "GPA": 0.0
+      },
+      {
+        "name": "Casey TAFE",
+        "degree": "Diploma",
+        "major": "Hospitality",
+        "start_year": 1998,
+        "end_year": 1998,
+        "GPA": 0.0
+      },
+      {
+        "name": "Dandenong High School",
+        "degree": "V.C.E",
+        "major": "",
+        "start_year": 1997,
+        "end_year": 1997,
+        "GPA": 0.0
+      }
+    ],
+    "certifications": [
+      {
+        "name": "First Aid Training",
+        "institution": "St. John Ambulance",
+        "year_obtained": 0
+      }
+    ]
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Quoras lost Holocron",
+      "company": "Quora",
+      "start_date": "2019-10-01",
+      "end_date": "",
+      "location": {
+        "city": "Geelong",
+        "state": "Victoria",
+        "country": "Australia"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "2IC, Supervisor, Machine Maintenance & Operations",
+        "company": "",
+        "start_date": "2003-01-01",
+        "end_date": "2011-12-31",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Latin",
+        "proficiency_level": "Intermediate"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [
+      "Star Wars",
+      "Collectibles",
+      "Art"
+    ],
+    "publications": [
+      {
+        "title": "Star Wars: An Almanac",
+        "journal": "",
+        "year_published": 0,
+        "co_authors": [],
+        "abstract": ""
+      }
+    ]
+  },
+  "extracurricular_activities": [
+    {
+      "activity_name": "Star Wars Collectibles",
+      "role": "",
+      "description": "My spare room looks like a Star Wars museum.",
+      "start_date": "",
+      "end_date": ""
+    },
+    {
+      "activity_name": "Drawing",
+      "role": "Hobbyist",
+      "description": "I love to draw for family and friends.",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "preferences": {
+    "work_location": "Geelong, Victoria, Australia",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

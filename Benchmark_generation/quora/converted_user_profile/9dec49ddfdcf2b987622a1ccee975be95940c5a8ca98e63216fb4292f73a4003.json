@@ -1,0 +1,122 @@
+{
+  "personal_info": {
+    "name": "Viktor T. Toth",
+    "email": "",
+    "age": null,
+    "gender": "",
+    "location": {
+      "city": "Ottawa",
+      "state": "ON",
+      "country": "Canada"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "",
+    "university": [
+      {
+        "name": "Budapest University of Technology and Economics",
+        "degree": "",
+        "major": "",
+        "start_year": null,
+        "end_year": null,
+        "GPA": null
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "IT pro, part-time physicist",
+      "company": "Quora",
+      "start_date": "2014-01",
+      "end_date": "present",
+      "location": {
+        "city": "Ottawa",
+        "state": "ON",
+        "country": "Canada"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Information Technology Professional",
+        "company": "",
+        "start_date": "1979",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Part-time Physicist",
+        "company": "",
+        "start_date": "2005",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Contributor",
+        "company": "Maxima / Macsyma Symbolic Algebra System",
+        "start_date": "2004",
+        "end_date": "present",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": ""
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": [
+      {
+        "language": "Hungarian",
+        "proficiency_level": "fluent"
+      },
+      {
+        "language": "Russian",
+        "proficiency_level": "fluent"
+      },
+      {
+        "language": "French",
+        "proficiency_level": "active"
+      },
+      {
+        "language": "German",
+        "proficiency_level": "active"
+      }
+    ]
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": null,
+    "employment_type": "",
+    "salary_expectations": null
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": "https://patreon.com/vttoth"
+  }
+}

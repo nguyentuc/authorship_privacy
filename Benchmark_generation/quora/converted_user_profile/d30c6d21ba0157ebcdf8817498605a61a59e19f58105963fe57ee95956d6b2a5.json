@@ -1,0 +1,153 @@
+{
+  "personal_info": {
+    "name": "Sara Stone",
+    "email": "",
+    "age": 0,
+    "gender": "",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "country": "USA"
+    },
+    "contact_info": {
+      "phone_number": "",
+      "preferred_contact_method": ""
+    }
+  },
+  "education": {
+    "highest_degree": "B.A. in Political Science",
+    "university": [
+      {
+        "name": "The Colorado College",
+        "degree": "B.A.",
+        "major": "Political Science",
+        "start_year": 1976,
+        "end_year": 1980,
+        "GPA": 0.0
+      }
+    ],
+    "certifications": []
+  },
+  "professional_experience": {
+    "current_position": {
+      "job_title": "Reporter",
+      "company": "Quora",
+      "start_date": "",
+      "end_date": "",
+      "location": {
+        "city": "Colorado Springs",
+        "state": "CO",
+        "country": "USA"
+      }
+    },
+    "previous_positions": [
+      {
+        "job_title": "Prepaid Tech Support",
+        "company": "Livebridge, Dba Xerox",
+        "start_date": "2013",
+        "end_date": "2015",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Real Estate Broker Associate",
+        "company": "First West Group, Inc.",
+        "start_date": "1986",
+        "end_date": "1987",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Special Projects Manager",
+        "company": "Charlton Group Inc",
+        "start_date": "1983",
+        "end_date": "1985",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Administrative Assistant",
+        "company": "Barry Boals and Associates",
+        "start_date": "1985",
+        "end_date": "1985",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Business Reporter",
+        "company": "The Colorado Springs Sun Newspaper",
+        "start_date": "1982",
+        "end_date": "1983",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Real Estate Section Acting Editor",
+        "company": "The Colorado Springs Sun Newspaper",
+        "start_date": "1983",
+        "end_date": "1983",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      },
+      {
+        "job_title": "Legislative Aide",
+        "company": "Honorable Kenneth B Kramer",
+        "start_date": "1980",
+        "end_date": "1981",
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "USA"
+        },
+        "job_responsibilities": []
+      }
+    ]
+  },
+  "skills": {
+    "technical_skills": [],
+    "soft_skills": [],
+    "languages": []
+  },
+  "projects": [],
+  "research": {
+    "interests": [],
+    "publications": []
+  },
+  "extracurricular_activities": [],
+  "preferences": {
+    "work_location": "",
+    "desired_job_role": "",
+    "willing_to_relocate": false,
+    "employment_type": "",
+    "salary_expectations": 0
+  },
+  "social_links": {
+    "linkedin": "",
+    "github": "",
+    "personal_website": ""
+  }
+}

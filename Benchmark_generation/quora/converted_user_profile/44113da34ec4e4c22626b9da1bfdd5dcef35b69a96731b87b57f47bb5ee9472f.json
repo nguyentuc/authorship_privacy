@@ -1,0 +1,110 @@
+{
+    "personal_info": {
+        "name": "Jon Mixon",
+        "email": "",
+        "age": null,
+        "gender": "",
+        "location": {
+            "city": "NE Indiana",
+            "state": "",
+            "country": "USA"
+        },
+        "contact_info": {
+            "phone_number": "",
+            "preferred_contact_method": ""
+        }
+    },
+    "education": {
+        "highest_degree": "",
+        "university": [
+            {
+                "name": "Western Nevada College",
+                "degree": "",
+                "major": "",
+                "start_year": null,
+                "end_year": null,
+                "GPA": null
+            }
+        ],
+        "certifications": []
+    },
+    "professional_experience": {
+        "current_position": {
+            "job_title": "",
+            "company": "Quora",
+            "start_date": "",
+            "end_date": "",
+            "location": {
+                "city": "",
+                "state": "",
+                "country": ""
+            }
+        },
+        "previous_positions": [
+            {
+                "job_title": "Employee",
+                "company": "Rigging",
+                "start_date": "",
+                "end_date": "",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "Employee",
+                "company": "Foundry",
+                "start_date": "",
+                "end_date": "",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            },
+            {
+                "job_title": "Employee",
+                "company": "Machining",
+                "start_date": "",
+                "end_date": "",
+                "location": {
+                    "city": "",
+                    "state": "",
+                    "country": ""
+                },
+                "job_responsibilities": []
+            }
+        ]
+    },
+    "skills": {
+        "technical_skills": [],
+        "soft_skills": [],
+        "languages": [
+            {
+                "language": "English",
+                "proficiency_level": "Fluent"
+            }
+        ]
+    },
+    "projects": [],
+    "research": {
+        "interests": [],
+        "publications": []
+    },
+    "extracurricular_activities": [],
+    "preferences": {
+        "work_location": "",
+        "desired_job_role": "",
+        "willing_to_relocate": false,
+        "employment_type": "",
+        "salary_expectations": null
+    },
+    "social_links": {
+        "linkedin": "",
+        "github": "",
+        "personal_website": ""
+    }
+}
