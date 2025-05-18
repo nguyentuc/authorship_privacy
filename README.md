@@ -19,9 +19,9 @@ pip install gensim
 
 ## Data Preprocessing
 Quora: 
-- Randomly get 200 authors who have: profile and at least 50 writings (done)
-- Randomly get 50 samples and split train/val/test=40/5/5 (done)
-- Define the template for the user_profile (done)
-- Use ChatGPT API to generate final user_profile with some specific attribute (done)
-- Run chatGPT to get synthesize dataset (let it run on the 40 train sample of train set) (running)
-- Evaluate on the dataset and synthesize dataset with bert, n-gram (monday)
+- Randomly get 200 authors who have: profile and at least 50 writings
+- Randomly get 50 samples and split train/val/test=40/5/5
+- Define the template for the user_profile
+- Use ChatGPT API to generate final user_profile with some specific attribute
+- Run chatGPT to get synthesize dataset (let it run on the 40 train sample of train set)
+- Evaluate on the dataset and synthesize dataset with bert, n-gram
