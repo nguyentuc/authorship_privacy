@@ -23,15 +23,15 @@ def load_dataset_k_user(data_path, k):
             train_labels.append(writing.split('.')[0])
 
     # load 10 more original with writing sample
-    for writing in writing_files_train:
-        synthesize_writing_only = pd.read_csv('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/10_more_original_writing/'+ writing)
-        for idx ,row  in synthesize_writing_only.iterrows():
-            train_texts.append(row['Answer'])
-            train_labels.append(writing.split('.')[0])
+    # for writing in writing_files_train:
+    #     synthesize_writing_only = pd.read_csv('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/10_more_original_writing/'+ writing)
+    #     for idx ,row  in synthesize_writing_only.iterrows():
+    #         train_texts.append(row['Answer'])
+    #         train_labels.append(writing.split('.')[0])
 
     # load 10 more synthesize with writing sample
     # for writing in writing_files_train:
-    #     synthesize_writing_only = pd.read_csv('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/synthesize_dataset_with_prompt_temp_0.2/'+ writing)[:10]
+    #     synthesize_writing_only = pd.read_csv('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/synthesize_dataset_with_prompt_temp_0.8/'+ writing)[:10]
     #     for idx ,row  in synthesize_writing_only.iterrows():
     #         train_texts.append(row['Answer_with_writing_sample'])
     #         train_labels.append(writing.split('.')[0])
@@ -44,14 +44,15 @@ def load_dataset_k_user(data_path, k):
     #         train_labels.append(writing.split('.')[0])
 
     # load 10 more with all
-    # for writing in writing_files_train:
-    #     synthesize_writing_only = pd.read_csv('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/synthesize_dataset_with_prompt_temp_0.8/'+ writing)[:10]
-    #     for idx ,row  in synthesize_writing_only.iterrows():
-    #         train_texts.append(row['Answer_with_full_information'])
-    #         train_labels.append(writing.split('.')[0])
+    for writing in writing_files_train:
+        synthesize_writing_only = pd.read_csv('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/synthesize_dataset_with_prompt_temp_0.8/'+ writing)[:10]
+        for idx ,row  in synthesize_writing_only.iterrows():
+            train_texts.append(row['Answer_with_full_information'])
+            train_labels.append(writing.split('.')[0])
     return train_texts, train_labels
 
-for k in [10, 50, 100, 150, 200]:
+for k in [10]:
+    print(f"Visualization for {k} users!!!")
     train_data, train_labels = load_dataset_k_user('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/', k)
 
     # convert label
@@ -76,23 +77,26 @@ for k in [10, 50, 100, 150, 200]:
     X_train_ngrams = max_abs_scaler.fit_transform(X_train_ngrams)
 
     # t-SNE for final 2D visualization
-    tsne = TSNE(n_components=2, random_state=2024, perplexity=30, max_iter=500)
-    X_tsne = tsne.fit_transform(X_train_ngrams.toarray())
+    for per in [10, 15, 25, 29, 30, 35]:
+        for lr in [10, 20, 50, 80, 100]:
+            for iter in [1500, 2000]:
+                tsne = TSNE(n_components=2, random_state=2024, perplexity=per, learning_rate = lr ,max_iter=iter)
+                X_tsne = tsne.fit_transform(X_train_ngrams.toarray())
 
-    #plot
-    plt.figure(figsize=(8, 6))
-    scatter = plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=encoded_train_labels, cmap='viridis')
-    plt.colorbar(scatter, label='Class')
+                #plot
+                plt.figure(figsize=(8, 6))
+                scatter = plt.scatter(X_tsne[:, 0], X_tsne[:, 1], c=encoded_train_labels, cmap='viridis')
+                plt.colorbar(scatter, label='Class')
 
-    # Label the original data points on the first 5*k record
-    for i in range(0, 5*k):
-        plt.text(X_tsne[i, 0], X_tsne[i, 1], encoded_train_labels[i], fontsize=8, ha='right', color='red')
-    
-    # label the additional dataset
-    for i in range(5*k, X_tsne.shape[0]):
-        plt.text(X_tsne[i, 0], X_tsne[i, 1], encoded_train_labels[i], fontsize=8, ha='right', color='blue')
+                # Label the original data points on the first 5*k record
+                for i in range(0, 5*k):
+                    plt.text(X_tsne[i, 0], X_tsne[i, 1], encoded_train_labels[i], fontsize=8, ha='right', color='red')
+                
+                # label the additional dataset
+                for i in range(5*k, X_tsne.shape[0]):
+                    plt.text(X_tsne[i, 0], X_tsne[i, 1], encoded_train_labels[i], fontsize=8, ha='right', color='blue')
 
-    plt.title(f"t-SNE visualization of n-gram embeddings on {k} user with original writing")
-    plt.xlabel("t-SNE Dimension 1")
-    plt.ylabel("t-SNE Dimension 2")
-    plt.savefig(f"visualization2/{k}_user_5with10more_original.png", dpi=300)
+                plt.title(f"t-SNE visualization of n-gram embeddings on {k} user with original writing")
+                plt.xlabel("t-SNE Dimension 1")
+                plt.ylabel("t-SNE Dimension 2")
+                plt.savefig(f"visualization_0.8/{k}_user_10_more_all_perplexity_{per}_learning_rate_{lr}_max_iter_{iter}.png", dpi=300)

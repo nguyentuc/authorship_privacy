@@ -1,0 +1,2 @@
+Proper Nouns (PROPN) consistently decrease: The model struggles with named entities, likely confusing them with common nouns.
+More NOUNs & VERBs in "Correct" datasets: This suggests a systematic correction where the model identifies more concrete nouns and actions.

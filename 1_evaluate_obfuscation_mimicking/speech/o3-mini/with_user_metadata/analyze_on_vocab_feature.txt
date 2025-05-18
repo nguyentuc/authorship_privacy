@@ -1,0 +1,20 @@
+Working on obama [vocab_size; avg_length; diversity]
+Original: 2752: 81.75287356321839 : 0.17621822373055004
+Obfuscation: 2167: 84.65517241379311 : 0.14711473183978277
+Mimicking from original: 2080: 84.64942528735632 : 0.1412180052956752
+Mimicking from obfuscation: 2155: 87.05747126436782 : 0.142263005017164
+
+Working on bush
+Original: 1750: 82.86904761904762 : 0.25140066082459417
+Obfuscation: 1642: 84.13095238095238 : 0.23234753077685014
+Mimicking from original: 1475: 82.42857142857143 : 0.2130271519352975
+Mimicking from obfuscation: 1543: 85.55952380952381 : 0.21469319604842077
+
+Working on trump
+Original: 1678: 78.06862745098039 : 0.21072460128092427
+Obfuscation: 1826: 85.50980392156863 : 0.2093556523733089
+Mimicking from original: 1661: 87.80392156862744 : 0.1854622599374721
+Mimicking from obfuscation: 1696: 88.93137254901961 : 0.1869694631242421
+
+- Compare with the human writing, ChatGPT relatively shorter but larger set of vocabulary is used. Also in term of text diversity, human writing
+are more diverse vocabulary in their writing.

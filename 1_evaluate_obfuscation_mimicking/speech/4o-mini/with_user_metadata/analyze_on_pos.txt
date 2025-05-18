@@ -1,0 +1,42 @@
+Ori: Counter({'NOUN': 2850, 'VERB': 1853, 'PRON': 1711, 'PUNCT': 1592, 'ADP': 1567, 'DET': 1247, 'ADJ': 1030, 'AUX': 990, 'CCONJ': 671, 'ADV': 592, 'PROPN': 585, 'PART': 509, 'SCONJ': 407, 'NUM': 110, 'INTJ': 13, 'SYM': 4, 'X': 1})
+Obfuscation: Counter({'NOUN': 3223, 'VERB': 2269, 'PUNCT': 1717, 'PRON': 1412, 'ADP': 1271, 'DET': 1159, 'ADJ': 938, 'AUX': 705, 'CCONJ': 609, 'ADV': 529, 'PART': 368, 'SCONJ': 334, 'PROPN': 155, 'NUM': 26, 'INTJ': 10})
+Mimicking from Original: Counter({'NOUN': 2954, 'VERB': 2068, 'PUNCT': 1740, 'PRON': 1697, 'ADP': 1361, 'DET': 1178, 'ADJ': 808, 'AUX': 751, 'CCONJ': 589, 'ADV': 581, 'PART': 455, 'SCONJ': 354, 'PROPN': 181, 'NUM': 47, 'INTJ': 9})
+Mimicking from Obfus: Counter({'NOUN': 3232, 'VERB': 2235, 'PUNCT': 1756, 'PRON': 1670, 'ADP': 1423, 'DET': 1256, 'ADJ': 885, 'AUX': 676, 'CCONJ': 574, 'ADV': 540, 'PART': 370, 'SCONJ': 339, 'PROPN': 176, 'NUM': 40, 'INTJ': 9})
+
+Working on bush
+Ori: Counter({'NOUN': 1432, 'VERB': 809, 'PUNCT': 739, 'ADP': 709, 'DET': 600, 'PRON': 545, 'ADJ': 539, 'AUX': 397, 'PROPN': 354, 'CCONJ': 311, 'ADV': 218, 'PART': 199, 'SCONJ': 107, 'NUM': 48, 'SYM': 9, 'INTJ': 1, 'X': 1})
+Obfuscation: Counter({'NOUN': 1689, 'VERB': 1049, 'PUNCT': 871, 'ADP': 625, 'ADJ': 550, 'DET': 547, 'PRON': 524, 'CCONJ': 301, 'AUX': 288, 'ADV': 233, 'PART': 152, 'SCONJ': 131, 'PROPN': 105, 'NUM': 15, 'X': 1})
+Mimicking from Original: Counter({'NOUN': 1560, 'VERB': 970, 'PUNCT': 769, 'PRON': 653, 'ADP': 645, 'DET': 540, 'ADJ': 475, 'AUX': 315, 'CCONJ': 304, 'ADV': 228, 'PART': 202, 'SCONJ': 147, 'PROPN': 139, 'NUM': 16, 'X': 1})
+Mimicking from Obfus: Counter({'NOUN': 1616, 'VERB': 1066, 'PUNCT': 832, 'PRON': 704, 'ADP': 676, 'DET': 543, 'ADJ': 479, 'AUX': 334, 'CCONJ': 295, 'ADV': 243, 'PART': 161, 'SCONJ': 138, 'PROPN': 110, 'NUM': 17, 'X': 1})
+
+Working on trump
+Ori: Counter({'NOUN': 1157, 'PUNCT': 1000, 'PRON': 970, 'VERB': 944, 'ADP': 691, 'DET': 629, 'AUX': 562, 'ADJ': 480, 'ADV': 392, 'CCONJ': 326, 'PROPN': 320, 'PART': 214, 'SCONJ': 193, 'NUM': 85, 'INTJ': 12, 'SYM': 9})
+Obfuscation: Counter({'NOUN': 1781, 'VERB': 1345, 'PUNCT': 1079, 'PRON': 845, 'ADP': 713, 'ADJ': 627, 'DET': 590, 'AUX': 444, 'CCONJ': 382, 'ADV': 360, 'PART': 212, 'SCONJ': 166, 'PROPN': 107, 'NUM': 42, 'INTJ': 7, 'SYM': 4})
+Mimicking from Original: Counter({'NOUN': 1448, 'PUNCT': 1293, 'VERB': 1263, 'PRON': 1109, 'ADP': 663, 'DET': 615, 'AUX': 589, 'ADJ': 549, 'ADV': 446, 'CCONJ': 339, 'PART': 250, 'SCONJ': 181, 'PROPN': 170, 'NUM': 36, 'INTJ': 9, 'SYM': 5})
+Mimicking from Obfus: Counter({'NOUN': 1669, 'VERB': 1346, 'PUNCT': 1163, 'PRON': 1084, 'ADP': 735, 'DET': 687, 'ADJ': 550, 'AUX': 493, 'ADV': 381, 'CCONJ': 359, 'PART': 220, 'SCONJ': 172, 'PROPN': 148, 'NUM': 46, 'INTJ': 11, 'SYM': 5})
+
+Overall
+- Obfuscation increases the complexity of speech by adding more nouns and verbs while reducing pronouns.
+- The POS differences reflect unique rhetorical styles between Obama, Bush, and Trump, with Obama using more verbs, Trump relying on pronouns, and Bush maintaining a balance.
+
+Nouns Dominate Across All Versions
+- Across all transformations and speakers, nouns are the most frequent part of speech. This suggests that political speeches rely heavily on concrete subjects, ideas, and references.
+- The frequency of nouns increases slightly in obfuscation and mimicking from obfuscation, indicating a tendency for obfuscated texts to introduce more nouns.
+
+- Verb Usage Increases with Obfuscation
+In all cases, the obfuscated versions of the speeches show a higher count of verbs compared to the original. This could be due to syntactic modifications that make sentences more dynamic or complex. This suggests that obfuscation methods tend to increase action-oriented language, possibly making statements more elaborate or ambiguous.
+
+- Pronoun Reduction in Obfuscation
+Pronouns (e.g., I, we, they) are significantly reduced in the obfuscated versions. This aligns with the idea that obfuscation replaces direct references with noun phrases or other constructs, making sentences less personal and more abstract.
+
+- Higher Use of Adjectives and Adverbs in Obfuscation
+Adjective (ADJ) and adverb (ADV) usage increases slightly in obfuscated texts. This suggests that obfuscation methods may introduce more descriptive elements, potentially increasing verbosity and making sentences more complex.
+
+- Mimicking from Original vs. Mimicking from Obfuscation
+The Mimicking from Obfuscation versions tend to preserve patterns from the obfuscated versions (e.g., increased noun and verb usage, reduced pronouns).
+However, some cases show partial reversion to original patterns, indicating that mimicked speech still retains some characteristics of the source dataset.
+
+- Differences Between Speakers
+Obama’s speeches tend to have a higher proportion of verbs compared to Bush and Trump, suggesting a more action-oriented speech style.
+Trump’s original speeches have higher pronoun counts, reflecting his personal and direct speech style.
+Bush’s speeches show a more balanced distribution of POS tags, indicating a more structured and formal delivery.

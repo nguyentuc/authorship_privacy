@@ -1,0 +1,822 @@
+{
+    "speech": {
+        "deepseek": {
+            "with": {
+                "obama": {
+                    "original": {
+                        "vocab_size": 2814,
+                        "avg_length": 94.24137931034483,
+                        "diversity": 0.17160629345042078
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3495,
+                        "avg_length": 85.77586206896552,
+                        "diversity": 0.23417085427135678
+                    }
+                },
+                "bush": {
+                    "original": {
+                        "vocab_size": 1810,
+                        "avg_length": 88.04761904761905,
+                        "diversity": 0.24472687939426718
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2098,
+                        "avg_length": 85.69047619047619,
+                        "diversity": 0.29146985273687137
+                    }
+                },
+                "trump": {
+                    "original": {
+                        "vocab_size": 1752,
+                        "avg_length": 79.8529411764706,
+                        "diversity": 0.2151012891344383
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2320,
+                        "avg_length": 85.34313725490196,
+                        "diversity": 0.2665134979896611
+                    }
+                }
+            },
+            "without": {
+                "obama": {
+                    "original": {
+                        "vocab_size": 2814,
+                        "avg_length": 94.24137931034483,
+                        "diversity": 0.17160629345042078
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3409,
+                        "avg_length": 85.72413793103448,
+                        "diversity": 0.2285465272190936
+                    }
+                },
+                "bush": {
+                    "original": {
+                        "vocab_size": 1810,
+                        "avg_length": 88.04761904761905,
+                        "diversity": 0.24472687939426718
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2176,
+                        "avg_length": 85.26190476190476,
+                        "diversity": 0.30382574699804527
+                    }
+                },
+                "trump": {
+                    "original": {
+                        "vocab_size": 1752,
+                        "avg_length": 79.8529411764706,
+                        "diversity": 0.2151012891344383
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2446,
+                        "avg_length": 85.50980392156863,
+                        "diversity": 0.28044026599403804
+                    }
+                }
+            }
+        },
+        "4o-mini": {
+            "with": {
+                "obama": {
+                    "original": {
+                        "vocab_size": 2814,
+                        "avg_length": 94.24137931034483,
+                        "diversity": 0.17160629345042078
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3403,
+                        "avg_length": 85.84482758620689,
+                        "diversity": 0.22782352547365603
+                    }
+                },
+                "bush": {
+                    "original": {
+                        "vocab_size": 1810,
+                        "avg_length": 88.04761904761905,
+                        "diversity": 0.24472687939426718
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2078,
+                        "avg_length": 85.03571428571429,
+                        "diversity": 0.2909141817163657
+                    }
+                },
+                "trump": {
+                    "original": {
+                        "vocab_size": 1752,
+                        "avg_length": 79.8529411764706,
+                        "diversity": 0.2151012891344383
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2314,
+                        "avg_length": 85.04901960784314,
+                        "diversity": 0.2667435158501441
+                    }
+                }
+            },
+            "without": {
+                "obama": {
+                    "original": {
+                        "vocab_size": 2814,
+                        "avg_length": 94.24137931034483,
+                        "diversity": 0.17160629345042078
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3531,
+                        "avg_length": 85.95977011494253,
+                        "diversity": 0.23607675335963094
+                    }
+                },
+                "bush": {
+                    "original": {
+                        "vocab_size": 1810,
+                        "avg_length": 88.04761904761905,
+                        "diversity": 0.24472687939426718
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2139,
+                        "avg_length": 85.39285714285714,
+                        "diversity": 0.29820158929318274
+                    }
+                },
+                "trump": {
+                    "original": {
+                        "vocab_size": 1752,
+                        "avg_length": 79.8529411764706,
+                        "diversity": 0.2151012891344383
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2550,
+                        "avg_length": 86.40196078431373,
+                        "diversity": 0.2893452853738795
+                    }
+                }
+            }
+        },
+        "o3-mini": {
+            "with": {
+                "obama": {
+                    "original": {
+                        "vocab_size": 2814,
+                        "avg_length": 94.24137931034483,
+                        "diversity": 0.17160629345042078
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3420,
+                        "avg_length": 85.89080459770115,
+                        "diversity": 0.22883907661425226
+                    }
+                },
+                "bush": {
+                    "original": {
+                        "vocab_size": 1810,
+                        "avg_length": 88.04761904761905,
+                        "diversity": 0.24472687939426718
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2061,
+                        "avg_length": 85.57142857142857,
+                        "diversity": 0.28672787979966613
+                    }
+                },
+                "trump": {
+                    "original": {
+                        "vocab_size": 1752,
+                        "avg_length": 79.8529411764706,
+                        "diversity": 0.2151012891344383
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2401,
+                        "avg_length": 85.49019607843137,
+                        "diversity": 0.2753440366972477
+                    }
+                }
+            },
+            "without": {
+                "obama": {
+                    "original": {
+                        "vocab_size": 2814,
+                        "avg_length": 94.24137931034483,
+                        "diversity": 0.17160629345042078
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3357,
+                        "avg_length": 85.53448275862068,
+                        "diversity": 0.22555936303164684
+                    }
+                },
+                "bush": {
+                    "original": {
+                        "vocab_size": 1810,
+                        "avg_length": 88.04761904761905,
+                        "diversity": 0.24472687939426718
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2172,
+                        "avg_length": 85.27380952380952,
+                        "diversity": 0.3032249057657406
+                    }
+                },
+                "trump": {
+                    "original": {
+                        "vocab_size": 1752,
+                        "avg_length": 79.8529411764706,
+                        "diversity": 0.2151012891344383
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2449,
+                        "avg_length": 86.11764705882354,
+                        "diversity": 0.2788023679417122
+                    }
+                }
+            }
+        },
+        "gemini": {
+            "with": {
+                "obama": {
+                    "original": {
+                        "vocab_size": 2814,
+                        "avg_length": 94.24137931034483,
+                        "diversity": 0.17160629345042078
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3362,
+                        "avg_length": 86.19540229885058,
+                        "diversity": 0.2241632217629017
+                    }
+                },
+                "bush": {
+                    "original": {
+                        "vocab_size": 1810,
+                        "avg_length": 88.04761904761905,
+                        "diversity": 0.24472687939426718
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2071,
+                        "avg_length": 85.29761904761905,
+                        "diversity": 0.2890439637124913
+                    }
+                },
+                "trump": {
+                    "original": {
+                        "vocab_size": 1752,
+                        "avg_length": 79.8529411764706,
+                        "diversity": 0.2151012891344383
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2351,
+                        "avg_length": 85.31372549019608,
+                        "diversity": 0.2701677775224086
+                    }
+                }
+            },
+            "without": {
+                "obama": {
+                    "original": {
+                        "vocab_size": 2814,
+                        "avg_length": 94.24137931034483,
+                        "diversity": 0.17160629345042078
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3328,
+                        "avg_length": 85.70689655172414,
+                        "diversity": 0.22316100046938914
+                    }
+                },
+                "bush": {
+                    "original": {
+                        "vocab_size": 1810,
+                        "avg_length": 88.04761904761905,
+                        "diversity": 0.24472687939426718
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2107,
+                        "avg_length": 85.54761904761905,
+                        "diversity": 0.29320901753409406
+                    }
+                },
+                "trump": {
+                    "original": {
+                        "vocab_size": 1752,
+                        "avg_length": 79.8529411764706,
+                        "diversity": 0.2151012891344383
+                    },
+                    "obfuscation": {
+                        "vocab_size": 2444,
+                        "avg_length": 85.6078431372549,
+                        "diversity": 0.2798900595510765
+                    }
+                }
+            }
+        }
+    },
+    "quora": {
+        "deepseek": {
+            "with": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original": {
+                        "vocab_size": 6915,
+                        "avg_length": 846.5,
+                        "diversity": 0.13614884819846426
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4176,
+                        "avg_length": 339.3,
+                        "diversity": 0.20512820512820512
+                    }
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original": {
+                        "vocab_size": 4556,
+                        "avg_length": 539.7333333333333,
+                        "diversity": 0.14068675889328064
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4708,
+                        "avg_length": 345.75,
+                        "diversity": 0.22694625210894193
+                    }
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original": {
+                        "vocab_size": 4506,
+                        "avg_length": 512.0666666666667,
+                        "diversity": 0.14666059106887125
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4594,
+                        "avg_length": 335.31666666666666,
+                        "diversity": 0.2283413688553109
+                    }
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original": {
+                        "vocab_size": 5632,
+                        "avg_length": 572.4590163934427,
+                        "diversity": 0.16128293241695305
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4472,
+                        "avg_length": 332.44262295081967,
+                        "diversity": 0.2205236944622516
+                    }
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original": {
+                        "vocab_size": 3295,
+                        "avg_length": 504.65,
+                        "diversity": 0.10882129528716272
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4081,
+                        "avg_length": 348.26666666666665,
+                        "diversity": 0.19530053598774885
+                    }
+                }
+            },
+            "without": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original": {
+                        "vocab_size": 6915,
+                        "avg_length": 846.5,
+                        "diversity": 0.13614884819846426
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4230,
+                        "avg_length": 339.1333333333333,
+                        "diversity": 0.20788283860821702
+                    }
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original": {
+                        "vocab_size": 4556,
+                        "avg_length": 539.7333333333333,
+                        "diversity": 0.14068675889328064
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4702,
+                        "avg_length": 345.4,
+                        "diversity": 0.2268867014089944
+                    }
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original": {
+                        "vocab_size": 4506,
+                        "avg_length": 512.0666666666667,
+                        "diversity": 0.14666059106887125
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4555,
+                        "avg_length": 336.03333333333336,
+                        "diversity": 0.22592004761432397
+                    }
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original": {
+                        "vocab_size": 5632,
+                        "avg_length": 572.4590163934427,
+                        "diversity": 0.16128293241695305
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4425,
+                        "avg_length": 331.2295081967213,
+                        "diversity": 0.21900519673348182
+                    }
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original": {
+                        "vocab_size": 3295,
+                        "avg_length": 504.65,
+                        "diversity": 0.10882129528716272
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4057,
+                        "avg_length": 343.98333333333335,
+                        "diversity": 0.19656960124037018
+                    }
+                }
+            }
+        },
+        "4o-mini": {
+            "with": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original": {
+                        "vocab_size": 6915,
+                        "avg_length": 846.5,
+                        "diversity": 0.13614884819846426
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4246,
+                        "avg_length": 337.1666666666667,
+                        "diversity": 0.20988630746416215
+                    }
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original": {
+                        "vocab_size": 4556,
+                        "avg_length": 539.7333333333333,
+                        "diversity": 0.14068675889328064
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4687,
+                        "avg_length": 346.23333333333335,
+                        "diversity": 0.225618561663618
+                    }
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original": {
+                        "vocab_size": 4506,
+                        "avg_length": 512.0666666666667,
+                        "diversity": 0.14666059106887125
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4501,
+                        "avg_length": 333.43333333333334,
+                        "diversity": 0.22498250524842547
+                    }
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original": {
+                        "vocab_size": 5632,
+                        "avg_length": 572.4590163934427,
+                        "diversity": 0.16128293241695305
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4553,
+                        "avg_length": 334.0163934426229,
+                        "diversity": 0.2234601226993865
+                    }
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original": {
+                        "vocab_size": 3295,
+                        "avg_length": 504.65,
+                        "diversity": 0.10882129528716272
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3926,
+                        "avg_length": 341.51666666666665,
+                        "diversity": 0.19159631057537455
+                    }
+                }
+            },
+            "without": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original": {
+                        "vocab_size": 6915,
+                        "avg_length": 846.5,
+                        "diversity": 0.13614884819846426
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4281,
+                        "avg_length": 335.53333333333336,
+                        "diversity": 0.2126465328829724
+                    }
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original": {
+                        "vocab_size": 4556,
+                        "avg_length": 539.7333333333333,
+                        "diversity": 0.14068675889328064
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4785,
+                        "avg_length": 344.73333333333335,
+                        "diversity": 0.23133823245020305
+                    }
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original": {
+                        "vocab_size": 4506,
+                        "avg_length": 512.0666666666667,
+                        "diversity": 0.14666059106887125
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4592,
+                        "avg_length": 339.45,
+                        "diversity": 0.22546275838365984
+                    }
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original": {
+                        "vocab_size": 5632,
+                        "avg_length": 572.4590163934427,
+                        "diversity": 0.16128293241695305
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4536,
+                        "avg_length": 334.59016393442624,
+                        "diversity": 0.2222439980401764
+                    }
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original": {
+                        "vocab_size": 3295,
+                        "avg_length": 504.65,
+                        "diversity": 0.10882129528716272
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3873,
+                        "avg_length": 343.1,
+                        "diversity": 0.18813756922180122
+                    }
+                }
+            }
+        },
+        "o3-mini": {
+            "with": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original": {
+                        "vocab_size": 6915,
+                        "avg_length": 846.5,
+                        "diversity": 0.13614884819846426
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3977,
+                        "avg_length": 336.73333333333335,
+                        "diversity": 0.19684220946347258
+                    }
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original": {
+                        "vocab_size": 4556,
+                        "avg_length": 539.7333333333333,
+                        "diversity": 0.14068675889328064
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4634,
+                        "avg_length": 347.3333333333333,
+                        "diversity": 0.22236084452975047
+                    }
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original": {
+                        "vocab_size": 4506,
+                        "avg_length": 512.0666666666667,
+                        "diversity": 0.14666059106887125
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4527,
+                        "avg_length": 337.71666666666664,
+                        "diversity": 0.22341213048413364
+                    }
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original": {
+                        "vocab_size": 5632,
+                        "avg_length": 572.4590163934427,
+                        "diversity": 0.16128293241695305
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4532,
+                        "avg_length": 333.62295081967216,
+                        "diversity": 0.22269175961869195
+                    }
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original": {
+                        "vocab_size": 3295,
+                        "avg_length": 504.65,
+                        "diversity": 0.10882129528716272
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3998,
+                        "avg_length": 346.3666666666667,
+                        "diversity": 0.1923780194398999
+                    }
+                }
+            },
+            "without": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original": {
+                        "vocab_size": 6915,
+                        "avg_length": 846.5,
+                        "diversity": 0.13614884819846426
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3958,
+                        "avg_length": 333.23333333333335,
+                        "diversity": 0.1979593878163449
+                    }
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original": {
+                        "vocab_size": 4556,
+                        "avg_length": 539.7333333333333,
+                        "diversity": 0.14068675889328064
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4710,
+                        "avg_length": 351.0,
+                        "diversity": 0.22364672364672364
+                    }
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original": {
+                        "vocab_size": 4506,
+                        "avg_length": 512.0666666666667,
+                        "diversity": 0.14666059106887125
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4508,
+                        "avg_length": 333.3333333333333,
+                        "diversity": 0.2254
+                    }
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original": {
+                        "vocab_size": 5632,
+                        "avg_length": 572.4590163934427,
+                        "diversity": 0.16128293241695305
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4567,
+                        "avg_length": 334.0163934426229,
+                        "diversity": 0.22414723926380367
+                    }
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original": {
+                        "vocab_size": 3295,
+                        "avg_length": 504.65,
+                        "diversity": 0.10882129528716272
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4075,
+                        "avg_length": 349.65,
+                        "diversity": 0.19424186090852757
+                    }
+                }
+            }
+        },
+        "gemini": {
+            "with": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original": {
+                        "vocab_size": 6915,
+                        "avg_length": 846.5,
+                        "diversity": 0.13614884819846426
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3978,
+                        "avg_length": 337.4,
+                        "diversity": 0.1965026674570243
+                    }
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original": {
+                        "vocab_size": 4556,
+                        "avg_length": 539.7333333333333,
+                        "diversity": 0.14068675889328064
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4628,
+                        "avg_length": 349.8333333333333,
+                        "diversity": 0.22048594568842306
+                    }
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original": {
+                        "vocab_size": 4506,
+                        "avg_length": 512.0666666666667,
+                        "diversity": 0.14666059106887125
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4655,
+                        "avg_length": 340.96666666666664,
+                        "diversity": 0.22753934890996189
+                    }
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original": {
+                        "vocab_size": 5632,
+                        "avg_length": 572.4590163934427,
+                        "diversity": 0.16128293241695305
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4529,
+                        "avg_length": 333.55737704918033,
+                        "diversity": 0.22258809652528627
+                    }
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original": {
+                        "vocab_size": 3295,
+                        "avg_length": 504.65,
+                        "diversity": 0.10882129528716272
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3904,
+                        "avg_length": 341.21666666666664,
+                        "diversity": 0.19069017730669663
+                    }
+                }
+            },
+            "without": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original": {
+                        "vocab_size": 6915,
+                        "avg_length": 846.5,
+                        "diversity": 0.13614884819846426
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3985,
+                        "avg_length": 339.75,
+                        "diversity": 0.1954868776060829
+                    }
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original": {
+                        "vocab_size": 4556,
+                        "avg_length": 539.7333333333333,
+                        "diversity": 0.14068675889328064
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4694,
+                        "avg_length": 347.43333333333334,
+                        "diversity": 0.2251750935431258
+                    }
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original": {
+                        "vocab_size": 4506,
+                        "avg_length": 512.0666666666667,
+                        "diversity": 0.14666059106887125
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4678,
+                        "avg_length": 334.98333333333335,
+                        "diversity": 0.23274789790536843
+                    }
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original": {
+                        "vocab_size": 5632,
+                        "avg_length": 572.4590163934427,
+                        "diversity": 0.16128293241695305
+                    },
+                    "obfuscation": {
+                        "vocab_size": 4517,
+                        "avg_length": 329.2295081967213,
+                        "diversity": 0.22491659612607678
+                    }
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original": {
+                        "vocab_size": 3295,
+                        "avg_length": 504.65,
+                        "diversity": 0.10882129528716272
+                    },
+                    "obfuscation": {
+                        "vocab_size": 3915,
+                        "avg_length": 343.98333333333335,
+                        "diversity": 0.18968942293715782
+                    }
+                }
+            }
+        }
+    }
+}

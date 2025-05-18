@@ -27,7 +27,7 @@ def get_benchmark_dataset():
     print("Valid:", len(valid_user_profile))
     i = 0
     good_user_writing ={}
-    while i < 200:
+    while i <= 200:
         if len(valid_user_profile) == 0:
             break
         random_user = random.choice(valid_user_profile)
@@ -71,7 +71,7 @@ def get_10_more_writing_each_writers(data_path):
     file_name = os.listdir(data_path)
     for f in file_name:
         if f in os.listdir('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/10_more_original_writing/'):
-            print("Skip:", f)
+            # print("Skip:", f)
             continue
 
         user_writing_path = data_path+f
@@ -79,7 +79,7 @@ def get_10_more_writing_each_writers(data_path):
         old_train_val_test_50 = user_writing.sample(n=50, random_state=2024, replace=False)
         print("Old index:", list(old_train_val_test_50.index))
 
-
+        print("Shape:", user_writing.shape)
         if user_writing.shape[0] == 50:
             print("No more to take")
             continue
@@ -88,7 +88,7 @@ def get_10_more_writing_each_writers(data_path):
         new_10 = []
         stop_cond = False
         while not stop_cond:
-            new = user_writing.sample(n=1, replace=False)
+            new = user_writing.sample(n=1, random_state=2024, replace=False)
             if new.index in list(old_train_val_test_50.index):
                 continue
             new_10.append(new)
@@ -114,4 +114,4 @@ def get_user_profile(data_path):
 # split_train_eval_test('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/all/')
 # get_user_profile('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/all/')
 # get 10 more writing for each
-get_10_more_writing_each_writers('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/all/')
+# get_10_more_writing_each_writers('/media/volume/arkai-lab-data-private/Coding/AA/Benchmark_generation/quora/all/')

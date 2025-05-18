@@ -1,0 +1,9 @@
+Base model: gpt2
+Dataset percentage used: 100.0%
+LoRA rank (r): 16
+LoRA alpha: 32
+LoRA dropout: 0.1
+Epochs: 10
+Learning rate: 0.0002
+Batch size: 32
+Max sequence length: 512

@@ -1,0 +1,21 @@
+Working on obama
+Original HS: 0.8793103448275862
+obfuscations HS: 0.9827586206896551
+mimic_ori HS: 0.9942528735632183
+mimic_obfus HS: 1.0
+
+Working on bush
+Original HS: 0.9166666666666666
+obfuscations HS: 0.9761904761904762
+mimic_ori HS: 1.0
+mimic_obfus HS: 0.9880952380952381
+
+Working on trump
+Original HS: 0.7549019607843137
+obfuscations HS: 0.9509803921568627
+mimic_ori HS: 0.9901960784313726
+mimic_obfus HS: 0.9705882352941176
+
+Analyze: 
+Obfuscation and Mimicking Increase Hate Speech Scores: Across all three speakers (Obama, Bush, and Trump), the HS score is lowest for the original text and increases significantly for obfuscation, mimicking from the original, and mimicking from the obfuscation.
+Mimicking Tends to Maximize HS Scores: The highest HS scores consistently appear in the mimic_ori and mimic_obfus cases. This suggests that when text is modified through mimicking processes, it tends to trigger stronger hate speech classifications.

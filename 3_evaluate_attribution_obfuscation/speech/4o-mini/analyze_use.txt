@@ -1,0 +1,24 @@
+Working on obama
+Sim Ori-Obfus Correct: 0.4548324644565582
+Sim Ori-Obfus InCorrect: 0.4637845754623413
+
+Working on bush
+Sim Ori-Obfus Correct: 0.47206375002861023
+Sim Ori-Obfus InCorrect: 0.4674244523048401
+
+Working on trump
+Sim Ori-Obfus Correct: 0.40439558029174805
+Sim Ori-Obfus InCorrect: 0.39148181676864624
+
+Almost similar
+
+# without user metadata 
+Working on obama
+Sim Ori-Obfus Correct: 0.45264050364494324
+Sim Ori-Obfus InCorrect: 0.45187777280807495
+Working on bush
+Sim Ori-Obfus Correct: 0.4700576663017273
+Sim Ori-Obfus InCorrect: 0.4727596044540405
+Working on trump
+Sim Ori-Obfus Correct: 0.3828132450580597
+Sim Ori-Obfus InCorrect: 0.38718169927597046

@@ -1,0 +1,11 @@
+- acc on obama dataset always achieve higher acc compare with other speaker (trump and bush) which is also correlated with obama dataset has highest 
+perplexity distribution compare to others.
+
+- Summarize results:
+0 original, 10 mimicking, 10 negative: {'obama': 0.3256880733944954, 'trump': 0.17578125, 'bush': 0.24528301886792453}
+2 original, 8 mimicking, 10 negative: {'trump': 0.25, 'bush': 0.34134615384615385, 'obama': 0.6157407407407407}
+5 original, 5 mimicking, 10 negative: {'trump': 0.25296442687747034, 'obama': 0.48036951501154734, 'bush': 0.3014354066985646}
+8 original, 2 mimicking, 10 negative: {'trump': 0.26, 'bush': 0.34, 'obama': 0.61}
+10 original, 0 mimicking, 10 negative: {'obama': 0.69, 'trump': 0.31, 'bush': 0.34}
+
++ when the number of the original example increase in the few short learning, ChatGPT is able to capture the more diverse the user speech then have higher authorship verification performance.

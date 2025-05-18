@@ -1,0 +1,6 @@
+trump: 0.26
+bush: 0.34
+obama: 0.61
+
+withOUT mETADATA
+{'obama': 0.3761467889908257, 'trump': 0.10546875, 'bush': 0.45754716981132076}

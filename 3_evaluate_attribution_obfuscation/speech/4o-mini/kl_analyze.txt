@@ -1,0 +1,26 @@
+Speaker: bush
+KL Divergence (Original; Correct): 0.2611
+KL Divergence (Original; InCorrect): 0.2833
+==============
+Speaker: obama
+KL Divergence (Original; Correct): 0.6871
+KL Divergence (Original; InCorrect): 0.5769
+==============
+Speaker: trump
+KL Divergence (Original; Correct): 0.4402
+KL Divergence (Original; InCorrect): 0.6507
+
+- Overall, when doing text obfuscation on the incorrect attribute text achieve better performance compare to do text obfuscation from correct attribute text.
+- Hypothesis: check to see performance on these task when remove the author identification.
+
+
+WITHOUT USER METADATA
+Speaker: bush
+KL Divergence (Original; Correct): 0.5123
+KL Divergence (Original; InCorrect): 0.5675
+Speaker: obama
+KL Divergence (Original; Correct): 1.0877
+KL Divergence (Original; InCorrect): 1.3363
+Speaker: trump
+KL Divergence (Original; Correct): 0.8832
+KL Divergence (Original; InCorrect): 1.0728

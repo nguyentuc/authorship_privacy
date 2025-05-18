@@ -1,11 +1,3 @@
-1. N-gram model with Logistic or Naive Bayes
-- charac n-gram: no need to use SVD
-- word n-gram: need to use SVD for dimension reduction 
-
-2. Naive Bayes has very bad performance for a high label classification compare to Logistic Regression
-- NB: 0.1708
-- Logistic: 0.4979
-
 3. Dataset preprocessing
 - Quora: 
     + Randomly get 200 authors who have: profile and at least 50 writings (done)
@@ -22,3 +14,9 @@
 - conda install conda-forge::openai
 - conda install conda-forge::tiktoken
 - conda install matplotlib
+- pip install datasets
+- pip3 install torch transformers pandas
+- pip3 install peft bitsandbytes accelerate
+- conda install -c conda-forge tensorflow-hub
+- pip install tf-keras
+- pip install gensim

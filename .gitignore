@@ -15,3 +15,7 @@ venv/
 
 # data folder
 Datasets/
+
+logs/
+
+Benchmark_generation/

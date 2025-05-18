@@ -1,0 +1,246 @@
+{
+    "speech": {
+        "deepseek": {
+            "with": {
+                "obama": {
+                    "original_obfuscation": 0.050429686044211657
+                },
+                "bush": {
+                    "original_obfuscation": 0.057876956599601126
+                },
+                "trump": {
+                    "original_obfuscation": 0.0532056296452168
+                }
+            },
+            "without": {
+                "obama": {
+                    "original_obfuscation": 0.049612724494658866
+                },
+                "bush": {
+                    "original_obfuscation": 0.05810445991332655
+                },
+                "trump": {
+                    "original_obfuscation": 0.05233549213775787
+                }
+            }
+        },
+        "4o-mini": {
+            "with": {
+                "obama": {
+                    "original_obfuscation": 0.0522783058396
+                },
+                "bush": {
+                    "original_obfuscation": 0.05805285936168083
+                },
+                "trump": {
+                    "original_obfuscation": 0.05327897204861165
+                }
+            },
+            "without": {
+                "obama": {
+                    "original_obfuscation": 0.050600638808752825
+                },
+                "bush": {
+                    "original_obfuscation": 0.05835499960737627
+                },
+                "trump": {
+                    "original_obfuscation": 0.05011087135169575
+                }
+            }
+        },
+        "o3-mini": {
+            "with": {
+                "obama": {
+                    "original_obfuscation": 0.05282932245047129
+                },
+                "bush": {
+                    "original_obfuscation": 0.05876365498651371
+                },
+                "trump": {
+                    "original_obfuscation": 0.05265067429594608
+                }
+            },
+            "without": {
+                "obama": {
+                    "original_obfuscation": 0.051811570709593614
+                },
+                "bush": {
+                    "original_obfuscation": 0.0579138704172403
+                },
+                "trump": {
+                    "original_obfuscation": 0.05184625742594916
+                }
+            }
+        },
+        "gemini": {
+            "with": {
+                "obama": {
+                    "original_obfuscation": 0.050993752523006475
+                },
+                "bush": {
+                    "original_obfuscation": 0.05719755524717971
+                },
+                "trump": {
+                    "original_obfuscation": 0.05241239020660742
+                }
+            },
+            "without": {
+                "obama": {
+                    "original_obfuscation": 0.05162808830866648
+                },
+                "bush": {
+                    "original_obfuscation": 0.05727374075332888
+                },
+                "trump": {
+                    "original_obfuscation": 0.0502024597041874
+                }
+            }
+        }
+    },
+    "quora": {
+        "deepseek": {
+            "with": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original_obfuscation": 0.1526300093879477
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original_obfuscation": 0.1479456388188293
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original_obfuscation": 0.16697080363250613
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original_obfuscation": 0.1341109046783638
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original_obfuscation": 0.190428089195435
+                }
+            },
+            "without": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original_obfuscation": 0.15261412679044434
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original_obfuscation": 0.1444698077007312
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original_obfuscation": 0.16953627400733107
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original_obfuscation": 0.13792533550372385
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original_obfuscation": 0.1894489286880785
+                }
+            }
+        },
+        "4o-mini": {
+            "with": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original_obfuscation": 0.14892117425970816
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original_obfuscation": 0.14993033679926915
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original_obfuscation": 0.16356564134484075
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original_obfuscation": 0.1344692509574114
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original_obfuscation": 0.19460227277310152
+                }
+            },
+            "without": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original_obfuscation": 0.1459017003214858
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original_obfuscation": 0.145840932703948
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original_obfuscation": 0.1634366502915835
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original_obfuscation": 0.13473630456873953
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original_obfuscation": 0.1929651783978145
+                }
+            }
+        },
+        "o3-mini": {
+            "with": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original_obfuscation": 0.15365674354978068
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original_obfuscation": 0.15675909051558884
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original_obfuscation": 0.16520661311884494
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original_obfuscation": 0.13908218450982235
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original_obfuscation": 0.19398862004316786
+                }
+            },
+            "without": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original_obfuscation": 0.15429203241917663
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original_obfuscation": 0.14712989401592497
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original_obfuscation": 0.16096392952323904
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original_obfuscation": 0.13677623873116418
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original_obfuscation": 0.1916315633103828
+                }
+            }
+        },
+        "gemini": {
+            "with": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original_obfuscation": 0.15432496236352045
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original_obfuscation": 0.1557564436803352
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original_obfuscation": 0.16468227600720067
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original_obfuscation": 0.13662794935389144
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original_obfuscation": 0.19344458049795518
+                }
+            },
+            "without": {
+                "78b20ee692213232f06d64222b0e259cd17466933d84c11c453eda1586742dce": {
+                    "original_obfuscation": 0.14960344847805485
+                },
+                "7a0dfa42fd8e41772801c6b701fb3a97bc720dacf7c09f11719a3670d1404d54": {
+                    "original_obfuscation": 0.14710083344331265
+                },
+                "2e1e64a5182d0314b2db4d1d0ebc7b263a75034bd1dd7faefe098fa047028454": {
+                    "original_obfuscation": 0.16383236929907016
+                },
+                "4efacb6045e082619e861966232b7022e4973fefb4fff8f590b8fb689cc9fe09": {
+                    "original_obfuscation": 0.13835187060588466
+                },
+                "9dec49ddfdcf2b987622a1ccee975be95940c5a8ca98e63216fb4292f73a4003": {
+                    "original_obfuscation": 0.19485764781319329
+                }
+            }
+        }
+    }
+}
