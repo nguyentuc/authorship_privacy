@@ -1,7 +1,16 @@
-# authorship_privacy
-This is implementation of the paper: Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking
+<div align="center">
 
-### Installation
+![*Authorship*Privacy](assets/banner.png)
+</div>
+
+# Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking
+This is the implementation of the paper: Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking. In this work, we introduce a unified framework for studying how large language models (LLMs) engage with three interrelated dimensions of authorship: obfuscation (hiding identity), mimicking (imitating style), and verification (detecting authenticity).
+
+### 📢 Updates
+
+Our paper `Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking` is now out on [arXiv](https://arxiv.org/abs/2505.14195).
+
+### Quick Start
 ```bash
 conda create --name AA python=3.11
 conda install anaconda::pandas
