@@ -1,6 +1,6 @@
 <div align="center">
 
-![*Authorship*Privacy](llm_authorship_cycle.pdf)
+![*Authorship*Privacy](llm_authorship_cycle.png)
 </div>
 
 # Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking
