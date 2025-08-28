@@ -4,53 +4,52 @@ import pandas as pd
 from openai import OpenAI
 from datasets import load_from_disk
 
-# Set up the API key (replace with your own API key)
-os.environ['OPENAI_API_KEY'] = "YOUR_OPENAI_API_KEY"
+# Set up the API key
+os.environ['OPENAI_API_KEY'] = "YOUR_API_KEY"
 OPENROUTER_API_KEY = "YOUR_OPENROUTER_API_KEY"
 
-def generate_synthesize_dataset(avg, author_name, author_identification, sample_text, input_text, api):
+def generate_synthesize_dataset(avg, author_identification, sample_text, input_text, api):
     """
-    Generate text that obfuscates the writing style of the original author.
+    Generate text that mimics the writing style of an author.
     
     Args:
         avg: Target word count for the generated text
-        author_name: Name of the original author
         author_identification: Information about the author
         sample_text: Sample writings from the author
         input_text: Starting text to continue from
         api: API model to use ('o3-mini', 'gemini', 'deepseek', or default to 'gpt-4o-mini')
         
     Returns:
-        Generated text with obfuscated writing style
+        Generated text that mimics the author's style
     """
     # Base prompt for all models
     base_prompt = (
-        f"You are an emulator designed to hide the writing style of a human author. "
-        f"You are given 5 sample writings from an author. The goal of this task is to conceal "
-        f"the author's writing style by carefully modifying lexical richness and diversity, "
-        f"sentence structure, punctuation patterns, special character usage, expressions and idioms, "
-        f"overall tone, emotion, mood, and any other distinguishing stylistic elements. "
-        f"Your task is to generate {avg}-word continuation that has writing style significantly "
-        f"different from the provided input text. Strive to make the rewritten text distinguishable "
-        f"from both the input text and the 5 sample writings by the author. As output, exclusively "
-        f"return the text completion without any accompanying explanations or comments.\n\n"
+        f"You are an emulator designed to replicate the writing style of a human author. "
+        f"You are given 5 sample writings from the author. The goal of this task is to mimic "
+        f"the author's writing style while paying meticulous attention to lexical richness and diversity, "
+        f"sentence structure, punctuation style, special character style, expressions and idioms, "
+        f"overall tone, emotion, and mood, or any other relevant aspect of writing style established "
+        f"by the author. Your task is to generate a {avg}-word continuation that seamlessly blends "
+        f"with the provided input text. Ensure that the continuation is indistinguishable from both "
+        f"the input text and the 5 sample writings by the author. As output, exclusively return the "
+        f"text completion without any accompanying explanations or comments.\n\n"
         f"Here is some information about the author: {author_identification}.\n\n"
-        f"The 5 sample writings from {author_name}:\n{sample_text}\n\n"
+        f"The 5 sample writings from the author:\n{sample_text}\n\n"
         f"The input text is:\n{input_text}"
     )
     
     # Simplified prompt for GPT-4o-mini
     simplified_prompt = (
-        f"You are given 5 sample writings from an author. The goal of this task is to conceal "
-        f"the author's writing style by carefully modifying lexical richness and diversity, "
-        f"sentence structure, punctuation patterns, special character usage, expressions and idioms, "
-        f"overall tone, emotion, mood, and any other distinguishing stylistic elements. "
-        f"Your task is to generate {avg}-word continuation that has writing style significantly "
-        f"different from the provided input text. Strive to make the rewritten text distinguishable "
-        f"from both the input text and the 5 sample writings by the author. As output, exclusively "
-        f"return the text completion without any accompanying explanations or comments.\n\n"
+        f"You are given 5 sample writings from the author. The goal of this task is to mimic "
+        f"the author's writing style while paying meticulous attention to lexical richness and diversity, "
+        f"sentence structure, punctuation style, special character style, expressions and idioms, "
+        f"overall tone, emotion, and mood, or any other relevant aspect of writing style established "
+        f"by the author. Your task is to generate a {avg}-word continuation that seamlessly blends "
+        f"with the provided input text. Ensure that the continuation is indistinguishable from both "
+        f"the input text and the 5 sample writings by the author. As output, exclusively return the "
+        f"text completion without any accompanying explanations or comments.\n\n"
         f"Here is some information about the author: {author_identification}.\n\n"
-        f"The 5 sample writings from {author_name}:\n{sample_text}\n\n"
+        f"The 5 sample writings from an author:\n{sample_text}\n\n"
         f"The input text is:\n{input_text}"
     )
     
@@ -84,10 +83,10 @@ def generate_synthesize_dataset(avg, author_name, author_identification, sample_
             response_format={"type": "text"},
             seed=42,
             temperature=1.0,
-            max_tokens=300,
+            max_tokens=500,
             logprobs=True,
             messages=[
-                {"role": "system", "content": "You are an emulator designed to hide the writing style of a human author."},
+                {"role": "system", "content": "You are an emulator designed to replicate the writing style of a human author."},
                 {"role": "user", "content": simplified_prompt}
             ],
         )
@@ -95,17 +94,16 @@ def generate_synthesize_dataset(avg, author_name, author_identification, sample_
     return response.choices[0].message.content
 
 
-def obfuscation_text(api, dataset):
+def mimicking_text(api, dataset):
     """
-    Process a dataset to generate obfuscated text samples.
+    Process a dataset to generate texts that mimic an author's writing style.
     
     Args:
         api: The LLM API to use
         dataset: Dataset type ('speech' or 'quora')
     """
-    # Define output paths
-    output_dir = f'/media/volume/tucnv/Coding/AA/1_evaluate_obfuscation_mimicking/{dataset}/{api}/with_user_metadata/obfuscation/'
-    os.makedirs(output_dir, exist_ok=True)
+    # Define paths
+    root_save = f"/media/volume/tucnv/Coding/AA/1_evaluate_obfuscation_mimicking/additional_experiment/{dataset}/{api}/with_user_metadata/"
     
     # Author identification information for speech dataset
     author_info = {
@@ -115,6 +113,11 @@ def obfuscation_text(api, dataset):
     }
     
     if dataset == 'speech':
+        # Set up paths
+        synthesize_dataset = f"/media/volume/tucnv/Coding/AA/1_evaluate_obfuscation_mimicking/{dataset}/{api}/with_user_metadata/"
+        mimicking_output_dir = os.path.join(synthesize_dataset, "mimicking_from_original")
+        os.makedirs(mimicking_output_dir, exist_ok=True)
+        
         # Load speech dataset
         speech_data = load_from_disk("/media/volume/tucnv/Coding/AA/Benchmark_generation/speech")
         authors = list(set(speech_data['train']['style']))
@@ -122,20 +125,23 @@ def obfuscation_text(api, dataset):
         for person in authors:
             print(f"Working on: {person}")
             
-            # Filter dataset for current author with texts of sufficient length
-            author_dataset = speech_data.filter(
-                lambda example: example["style"] == person and len(example["text"].split()) > 50
-            )['train']
-            
-            # Randomly select 5 samples for reference
-            author_dataset = author_dataset.shuffle(seed=2024)
-            sample_texts = author_dataset.select(range(5))
-            sample_text = '\n\n'.join(text['text'] for text in sample_texts)
+            # Read CSV and select first 5 obfuscations as a condition text for mimicking
+            obfuscation_file = os.path.join(synthesize_dataset, "obfuscation", f"{person}.csv")
+            if not os.path.exists(obfuscation_file):
+                print(f"Obfuscation file not found for {person}")
+                continue
+                
+            df = pd.read_csv(obfuscation_file)
+            sample_text = '\n\n'.join(df['Obfuscation'].head().tolist())
             
             # Get author identification
             author_identification = author_info.get(person, "Unknown author")
             
-            # Select 20% of data for obfuscation
+            # Randomly select 20% for mimicking with 5 obfuscation text
+            author_dataset = speech_data.filter(
+                lambda example: example["style"] == person and len(example["text"].split()) > 50
+            )['train']
+            author_dataset = author_dataset.shuffle(seed=2024)
             author_dataset = author_dataset.shuffle(seed=2025)
             test_dataset = author_dataset.select(range(int(len(author_dataset) * 0.2)))
             
@@ -144,10 +150,9 @@ def obfuscation_text(api, dataset):
                 # Get the first 15 words for continuation
                 input_text = ' '.join(ip_text['text'].split(' ')[:15])
                 
-                # Generate obfuscated text
+                # Generate mimicked text
                 writing_sample = generate_synthesize_dataset(
                     avg=60, 
-                    author_name=person, 
                     author_identification=author_identification, 
                     sample_text=sample_text, 
                     input_text=input_text, 
@@ -155,22 +160,22 @@ def obfuscation_text(api, dataset):
                 )
                 
                 print(f"Original text: {input_text}")
-                print(f"Obfuscation text {i+1}/{len(test_dataset)}")
+                print(f"Mimicking text {i+1}/{len(test_dataset)}")
                 print(input_text + ' ' + writing_sample)
                 
                 records.append([input_text + ' ' + writing_sample])
                 print(80 * '-')
             
             # Save results
-            print("Saving results")
-            df_record = pd.DataFrame(records, columns=['Obfuscation'])
-            df_record.to_csv(os.path.join(output_dir, f"{person}.csv"), index=False)
+            print(f"Saving results for {person}")
+            df_record = pd.DataFrame(records, columns=['Mimicking'])
+            df_record.to_csv(os.path.join(mimicking_output_dir, f"{person}.csv"), index=False)
     
     elif dataset == 'quora':
-        # Process Quora dataset
+        # Set up paths
         profile_dir = '/media/volume/tucnv/Coding/AA/Benchmark_generation/quora/user_profile/'
         writing_dir = '/media/volume/tucnv/Coding/AA/Benchmark_generation/quora/writing/'
-        quora_output_dir = f'/media/volume/tucnv/Coding/AA/1_evaluate_obfuscation_mimicking/quora/{api}/with_user_metadata/obfuscation/'
+        quora_output_dir = f'/media/volume/tucnv/Coding/AA/1_evaluate_obfuscation_mimicking/{dataset}/{api}/with_user_metadata/mimicking_from_original/'
         os.makedirs(quora_output_dir, exist_ok=True)
         
         for filename in os.listdir(profile_dir):
@@ -189,50 +194,53 @@ def obfuscation_text(api, dataset):
                     continue
                     
                 author_dataset = pd.read_csv(writing_file)
-                author_dataset = author_dataset.sample(frac=1, random_state=42).reset_index(drop=True)
                 
-                # Randomly select 5 samples for reference
-                sample_writing = author_dataset.sample(n=5, random_state=42)
+                # Get sample text from first 5 entries
                 sample_text = '\n\n'.join(
                     row['Question'] + ' ' + row['Answer'] 
-                    for _, row in sample_writing.iterrows()
+                    for _, row in author_dataset.head().iterrows()
                 )
                 
-                # Select subset for obfuscation (20%)
-                df_remaining = author_dataset.drop(sample_writing.index)
-                test_dataset = df_remaining.sample(frac=0.2, random_state=42)
+                # Select 40% for mimicking
+                test_dataset = author_dataset.sample(frac=0.4, random_state=42)
                 
                 records = []
                 for i, (_, ip_text) in enumerate(test_dataset.iterrows()):
                     # Use the question as input text
                     input_text = ip_text['Question']
                     
-                    # Generate obfuscated text
-                    writing_sample = generate_synthesize_dataset(
-                        avg=290, 
-                        author_name='the author', 
-                        author_identification=author_identification, 
-                        sample_text=sample_text, 
-                        input_text=input_text, 
-                        api=api
-                    )
+                    # Generate mimicked text with error handling
+                    try:
+                        writing_sample = generate_synthesize_dataset(
+                            avg=290, 
+                            author_identification=author_identification, 
+                            sample_text=sample_text, 
+                            input_text=input_text, 
+                            api=api
+                        )
+                    except Exception as e:
+                        print(f"Error generating text: {e}")
+                        writing_sample = ip_text['Question'] + ' ' + ip_text['Answer']
                     
                     # Clean up the generated text
                     writing_sample = writing_sample.replace('\n', ' ')
                     
                     print(f"Original text: {input_text}")
-                    print(f"Obfuscation text {i+1}/{len(test_dataset)}")
+                    print(f"Mimicking text {i+1}/{len(test_dataset)}")
                     print(input_text + ' ' + writing_sample)
                     
                     records.append([input_text + ' ' + writing_sample])
                     print(80 * '-')
                 
                 # Save results
-                print("Saving results")
+                print(f"Saving results for {author_id}")
                 df_record = pd.DataFrame(records, columns=['Obfuscation'])
                 df_record.to_csv(os.path.join(quora_output_dir, f"{author_id}.csv"), index=False)
 
 
-# Run the obfuscation process
+# Run the mimicking process for different APIs and datasets
 if __name__ == "__main__":
-    obfuscation_text(api='deepseek', dataset='quora')
+    for api in ["4o-mini", "o3-mini", "gemini", "deepseek"]:
+        for dataname in ["speech", "quora"]:
+            print(f"\nProcessing {dataname} dataset with {api} API")
+            mimicking_text(api=api, dataset=dataname)

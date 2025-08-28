@@ -1,29 +1,39 @@
 import torch
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
-from datasets import load_from_disk
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-import re
-from peft import (
-    get_peft_model,
-    LoraConfig,
-    TaskType,
-    PeftModel
-)
 import pandas as pd
-import json
 import os
+import json
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from peft import PeftModel
+from datasets import load_from_disk
 
 # Set seeds for reproducibility
 torch.manual_seed(42)
 np.random.seed(42)
 
 def compute_perplexity(text, model, tokenizer, max_length=512):
-    """Compute perplexity for a single text."""
+    """
+    Compute perplexity for a single text.
+    
+    Args:
+        text: Input text to evaluate
+        model: Language model (with LoRA weights)
+        tokenizer: Tokenizer for the model
+        max_length: Maximum sequence length to process
+        
+    Returns:
+        Perplexity value (lower is better for matching the model's distribution)
+    """
+    # Handle empty or invalid inputs
+    if not text or not isinstance(text, str):
+        return float('inf')
+    
+    # Encode the text
     encodings = tokenizer(text, return_tensors="pt", truncation=True, max_length=max_length)
     input_ids = encodings.input_ids
     
+    # Compute perplexity
     with torch.no_grad():
         outputs = model(input_ids, labels=input_ids)
         loss = outputs.loss
@@ -32,144 +42,205 @@ def compute_perplexity(text, model, tokenizer, max_length=512):
     return perplexity
 
 
-# compute ppl of original, obfuscation and mimicking dataset
 def ppl_dif_between_3_datasets(dataset_name, api, with_without):
-    if dataset_name =='speech':
-        # Load model and tokenizer
-        model_name = "gpt2"  # Replace with your fine-tuned model name if needed
-        tokenizer = GPT2Tokenizer.from_pretrained(model_name)
-        base_model = GPT2LMHeadModel.from_pretrained(model_name)
-
-        # load dataset
+    """
+    Compute perplexity on original, obfuscated, and mimicked text samples
+    using author-specific fine-tuned language models.
+    
+    Args:
+        dataset_name: Name of the dataset ('speech' or 'quora')
+        api: The LLM API used to generate texts
+        with_without: Whether user metadata was used ('with_user_metadata' or 'without_user_metadata')
+        
+    Returns:
+        Dictionary containing perplexity values for different text types and authors
+    """
+    # Set paths
+    base_path = f'/media/volume/tucnv/Coding/AA/1b_evaluate_mimicking_influence_obfuscation/{dataset_name}/{api}/{with_without}/'
+    
+    # Load the base GPT-2 model and tokenizer
+    model_name = "gpt2"
+    tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+    base_model = GPT2LMHeadModel.from_pretrained(model_name)
+    
+    # Add the EOS token as PAD token to avoid warnings
+    tokenizer.pad_token = tokenizer.eos_token
+    
+    # Dictionary to store all perplexity values
+    text_level_perplexities = {}
+    
+    if dataset_name == 'speech':
+        # Load speech dataset
         dataset = load_from_disk("/media/volume/tucnv/Coding/AA/Benchmark_generation/speech")
-        personalize_models = list(set(dataset['train']['style']))
-
-        text_level_perplexities = {}
-        synthesize_dataset = f'/media/volume/tucnv/Coding/AA/1b_evaluate_mimicking_influence_obfuscation/{dataset_name}/{api}/{with_without}/'
-        for person in personalize_models:
-            print(f"Computing the PPL with {person}")
-            # Load the LoRA weights of Obama LoRA
-            lora_weights_path='/media/volume/tucnv/Coding/AA/evaluation_metric/4_finetune_gpt2_with_lora/'+person+'_16_32/lora_weights'
+        authors = list(set(dataset['train']['style']))
+        
+        for person in authors:
+            print(f"Computing perplexity for {person}'s model")
+            
+            # Load the LoRA weights for this author
+            lora_weights_path = f'/media/volume/tucnv/Coding/AA/evaluation_metric/4_finetune_gpt2_with_lora/{person}_16_32/lora_weights'
+            
+            if not os.path.exists(lora_weights_path):
+                print(f"Warning: LoRA weights not found for {person}")
+                continue
+                
+            # Load the author-specific model
             model = PeftModel.from_pretrained(base_model, lora_weights_path)
             model.eval()
-
-            # Add the EOS token as PAD token to avoid warnings
-            tokenizer.pad_token = tokenizer.eos_token
-
-            # Load datasets by other authors
-            text_level_perplexities[person] = {}
-
-            # read the mimicking text
-            df = pd.read_csv(synthesize_dataset+'micking_sample/'+person+'.csv')
-            list_ppl1 = []
-            for index, row in df.iterrows():
-                ppl = compute_perplexity(row['Mimicking'], model, tokenizer)
-                list_ppl1.append(ppl)
-            text_level_perplexities[person]['Mimicking'] = list_ppl1
-
-            # read the csv file mimicking from the obfuscation
-            df = pd.read_csv(synthesize_dataset+'obfuscation_from_mimic/'+person+'.csv')
-            list_ppl2 = []
-            for index, row in df.iterrows():
-                ppl = compute_perplexity(row['Obfuscation'], model, tokenizer)
-                list_ppl2.append(ppl)
-            text_level_perplexities[person]['obfuscation_from_mimicking'] = list_ppl2
             
-
-            # read the csv file mimicking from original
-            df = pd.read_csv(synthesize_dataset+'obfuscation_from_original/'+person+'.csv')
-            list_ppl3 = []
-            for index, row in df.iterrows():
-                ppl = compute_perplexity(row['Obfuscation'], model, tokenizer)
-                list_ppl3.append(ppl)
-            text_level_perplexities[person]['obfuscation_from_original'] = list_ppl3
-
-            # original text
-            author_dataset = dataset.filter(lambda example: example["style"] == person and len(example["text"].split()) > 50)['train']
+            # Initialize results for this author
+            text_level_perplexities[person] = {}
+            
+            # Process different text types
+            
+            # 1. Mimicking samples
+            mimicking_path = os.path.join(base_path, 'micking_sample', f'{person}.csv')
+            if os.path.exists(mimicking_path):
+                df = pd.read_csv(mimicking_path)
+                mimicking_ppls = [compute_perplexity(row['Mimicking'], model, tokenizer) for _, row in df.iterrows()]
+                text_level_perplexities[person]['Mimicking'] = mimicking_ppls
+                print(f"  Mimicking samples: {len(mimicking_ppls)} texts, Avg PPL: {np.mean(mimicking_ppls):.2f}")
+            else:
+                print(f"  Warning: File not found - {mimicking_path}")
+            
+            # 2. Obfuscation from mimicking
+            obf_mimic_path = os.path.join(base_path, 'obfuscation_from_mimic', f'{person}.csv')
+            if os.path.exists(obf_mimic_path):
+                df = pd.read_csv(obf_mimic_path)
+                obf_mimic_ppls = [compute_perplexity(row['Obfuscation'], model, tokenizer) for _, row in df.iterrows()]
+                text_level_perplexities[person]['obfuscation_from_mimicking'] = obf_mimic_ppls
+                print(f"  Obfuscation from mimicking: {len(obf_mimic_ppls)} texts, Avg PPL: {np.mean(obf_mimic_ppls):.2f}")
+            else:
+                print(f"  Warning: File not found - {obf_mimic_path}")
+            
+            # 3. Obfuscation from original
+            obf_orig_path = os.path.join(base_path, 'obfuscation_from_original', f'{person}.csv')
+            if os.path.exists(obf_orig_path):
+                df = pd.read_csv(obf_orig_path)
+                obf_orig_ppls = [compute_perplexity(row['Obfuscation'], model, tokenizer) for _, row in df.iterrows()]
+                text_level_perplexities[person]['obfuscation_from_original'] = obf_orig_ppls
+                print(f"  Obfuscation from original: {len(obf_orig_ppls)} texts, Avg PPL: {np.mean(obf_orig_ppls):.2f}")
+            else:
+                print(f"  Warning: File not found - {obf_orig_path}")
+            
+            # 4. Original texts
+            author_dataset = dataset.filter(
+                lambda example: example["style"] == person and len(example["text"].split()) > 50
+            )['train']
             author_dataset = author_dataset.shuffle(seed=2024)
             author_dataset = author_dataset.shuffle(seed=2025)
             author_dataset = author_dataset.select(range(int(len(author_dataset) * 0.2)))
-
-            list_ppl4 = []
-            for text in author_dataset:
-                ppl = compute_perplexity(text['text'], model, tokenizer)
-                list_ppl4.append(ppl)
-            text_level_perplexities[person]['original_text'] = list_ppl4
-        return text_level_perplexities
             
+            orig_ppls = [compute_perplexity(text['text'], model, tokenizer) for text in author_dataset]
+            text_level_perplexities[person]['original_text'] = orig_ppls
+            print(f"  Original texts: {len(orig_ppls)} texts, Avg PPL: {np.mean(orig_ppls):.2f}")
             
-    elif dataset_name=='quora':
-        # Load model and tokenizer
-        model_name = "gpt2"  # Replace with your fine-tuned model name if needed
-        tokenizer = GPT2Tokenizer.from_pretrained(model_name)
-        base_model = GPT2LMHeadModel.from_pretrained(model_name)
-
-        # load original dataset
-        # dataset = load_from_disk("/media/volume/tucnv/Coding/AA/Benchmark_generation/speech")
-        # personalize_models = list(set(dataset['train']['style']))
-        synthesize_dataset = f'/media/volume/tucnv/Coding/AA/1b_evaluate_mimicking_influence_obfuscation/{dataset_name}/{api}/{with_without}/'
+            print(f"  {'-'*40}")
+    
+    elif dataset_name == 'quora':
+        # Process Quora dataset
         root_path = '/media/volume/tucnv/Coding/AA/Benchmark_generation/quora/user_profile/'
-
-        text_level_perplexities ={}
+        
         for filename in os.listdir(root_path):
+            if not filename.endswith('.txt'):
+                continue
+                
             person = filename.split('.')[0]
-            text_level_perplexities[person] = {}
-
-            lora_weights_path='/media/volume/tucnv/Coding/AA/evaluation_metric/4_finetune_gpt2_with_lora/'+person+'_16_16/lora_weights'
+            print(f"Computing perplexity for {person}'s model")
+            
+            # Load the LoRA weights for this author
+            lora_weights_path = f'/media/volume/tucnv/Coding/AA/evaluation_metric/4_finetune_gpt2_with_lora/{person}_16_16/lora_weights'
+            
+            if not os.path.exists(lora_weights_path):
+                print(f"Warning: LoRA weights not found for {person}")
+                continue
+                
+            # Load the author-specific model
             model = PeftModel.from_pretrained(base_model, lora_weights_path)
             model.eval()
-
-            # Add the EOS token as PAD token to avoid warnings
-            tokenizer.pad_token = tokenizer.eos_token
             
-
-            # read the csv file of mimicking
-            df = pd.read_csv(synthesize_dataset+'micking_sample/'+person+'.csv')
-            list_ppl1 = []
-            for index, row in df.iterrows():
-                ppl = compute_perplexity(row['Mimicking'], model, tokenizer)
-                list_ppl1.append(ppl)
-            text_level_perplexities[person]['mimicking'] = list_ppl1
-
-            df = pd.read_csv(synthesize_dataset+'obfuscation_from_mimic/'+person+'.csv')
-            list_ppl2 = []
-            for index, row in df.iterrows():
-                ppl = compute_perplexity(row['Obfuscation'], model, tokenizer)
-                list_ppl2.append(ppl)
-            text_level_perplexities[person]['obfuscation_from_mimicking'] = list_ppl2
+            # Initialize results for this author
+            text_level_perplexities[person] = {}
             
-
-            df = pd.read_csv(synthesize_dataset+'obfuscation_from_original/'+person+'.csv')
-            list_ppl3 = []
-            for index, row in df.iterrows():
-                ppl = compute_perplexity(row['Obfuscation'], model, tokenizer)
-                list_ppl3.append(ppl)
-            text_level_perplexities[person]['obfuscation_from_original'] = list_ppl3
-
-            # load and compute ppl on original text
-            author_dataset = pd.read_csv('/media/volume/tucnv/Coding/AA/Benchmark_generation/quora/writing/'+filename.split('.')[0]+'.csv')
-            author_dataset = author_dataset.sample(frac=1, random_state=42).reset_index(drop=True)
-            author_dataset = author_dataset.sample(frac=0.2, random_state=42)
-
-            list_ppl4 = []
-            for idx, text in author_dataset.iterrows():
-                ppl = compute_perplexity(text['Question']+' '+text['Answer'], model, tokenizer)
-                list_ppl4.append(ppl)
-            text_level_perplexities[person]['original_text'] = list_ppl4
-        return text_level_perplexities
-
-all_ppl = {}
-all_ppl['quora'] ={}
-for api in ['4o-mini', 'o3-mini', 'deepseek', 'gemini']:
-    all_ppl['quora'][api] ={}
-    for with_without in ['with_user_metadata', 'without_user_metadata']:
-        print(f"Working on {api}-{with_without}")
-
-        all_ppl['quora'][api][with_without] ={}
-        ppl = ppl_dif_between_3_datasets(dataset_name='quora', api = api, with_without=with_without)
-        all_ppl['quora'][api][with_without] = ppl
-
-with open("/media/volume/tucnv/Coding/AA/1b_evaluate_mimicking_influence_obfuscation/quora/ppl_logs.json", "w") as f:
-    json.dump(all_ppl, f, indent=4)  # indent=4 makes it pretty
-
+            # Process different text types
+            
+            # 1. Mimicking samples
+            mimicking_path = os.path.join(base_path, 'micking_sample', f'{person}.csv')
+            if os.path.exists(mimicking_path):
+                df = pd.read_csv(mimicking_path)
+                mimicking_ppls = [compute_perplexity(row['Mimicking'], model, tokenizer) for _, row in df.iterrows()]
+                text_level_perplexities[person]['mimicking'] = mimicking_ppls
+                print(f"  Mimicking samples: {len(mimicking_ppls)} texts, Avg PPL: {np.mean(mimicking_ppls):.2f}")
+            else:
+                print(f"  Warning: File not found - {mimicking_path}")
+            
+            # 2. Obfuscation from mimicking
+            obf_mimic_path = os.path.join(base_path, 'obfuscation_from_mimic', f'{person}.csv')
+            if os.path.exists(obf_mimic_path):
+                df = pd.read_csv(obf_mimic_path)
+                obf_mimic_ppls = [compute_perplexity(row['Obfuscation'], model, tokenizer) for _, row in df.iterrows()]
+                text_level_perplexities[person]['obfuscation_from_mimicking'] = obf_mimic_ppls
+                print(f"  Obfuscation from mimicking: {len(obf_mimic_ppls)} texts, Avg PPL: {np.mean(obf_mimic_ppls):.2f}")
+            else:
+                print(f"  Warning: File not found - {obf_mimic_path}")
+            
+            # 3. Obfuscation from original
+            obf_orig_path = os.path.join(base_path, 'obfuscation_from_original', f'{person}.csv')
+            if os.path.exists(obf_orig_path):
+                df = pd.read_csv(obf_orig_path)
+                obf_orig_ppls = [compute_perplexity(row['Obfuscation'], model, tokenizer) for _, row in df.iterrows()]
+                text_level_perplexities[person]['obfuscation_from_original'] = obf_orig_ppls
+                print(f"  Obfuscation from original: {len(obf_orig_ppls)} texts, Avg PPL: {np.mean(obf_orig_ppls):.2f}")
+            else:
+                print(f"  Warning: File not found - {obf_orig_path}")
+            
+            # 4. Original texts
+            writing_file = f'/media/volume/tucnv/Coding/AA/Benchmark_generation/quora/writing/{person}.csv'
+            if os.path.exists(writing_file):
+                author_dataset = pd.read_csv(writing_file)
+                author_dataset = author_dataset.sample(frac=1, random_state=42).reset_index(drop=True)
+                author_dataset = author_dataset.sample(frac=0.2, random_state=42)
+                
+                orig_ppls = [compute_perplexity(text['Question']+' '+text['Answer'], model, tokenizer) 
+                             for _, text in author_dataset.iterrows()]
+                text_level_perplexities[person]['original_text'] = orig_ppls
+                print(f"  Original texts: {len(orig_ppls)} texts, Avg PPL: {np.mean(orig_ppls):.2f}")
+            else:
+                print(f"  Warning: File not found - {writing_file}")
+            
+            print(f"  {'-'*40}")
     
+    return text_level_perplexities
+
+
+# Main execution code
+if __name__ == "__main__":
+    # Initialize result container
+    all_ppl = {'quora': {}}
+    
+    # Process all combinations of API and metadata settings
+    for api in ['4o-mini', 'o3-mini', 'deepseek', 'gemini']:
+        all_ppl['quora'][api] = {}
+        
+        for with_without in ['with_user_metadata', 'without_user_metadata']:
+            print(f"\n{'='*80}\nProcessing quora dataset with {api} API ({with_without})\n{'='*80}")
+            
+            # Compute perplexity scores
+            ppl_results = ppl_dif_between_3_datasets(
+                dataset_name='quora', 
+                api=api, 
+                with_without=with_without
+            )
+            
+            # Store results
+            all_ppl['quora'][api][with_without] = ppl_results
+            
+            # Save intermediate results in case of failure
+            with open(f"/media/volume/tucnv/Coding/AA/1b_evaluate_mimicking_influence_obfuscation/quora/ppl_logs_{api}_{with_without}.json", "w") as f:
+                json.dump({api: {with_without: ppl_results}}, f, indent=4)
+    
+    # Save the complete results
+    with open("/media/volume/tucnv/Coding/AA/1b_evaluate_mimicking_influence_obfuscation/quora/ppl_logs.json", "w") as f:
+        json.dump(all_ppl, f, indent=4)
+    
+    print("\nAll perplexity calculations completed and saved!")
