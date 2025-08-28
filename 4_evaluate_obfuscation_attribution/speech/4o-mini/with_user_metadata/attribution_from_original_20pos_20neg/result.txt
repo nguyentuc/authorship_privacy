@@ -1,3 +1,0 @@
-obama: 0.58
-bush: 0.20
-trump: 0.20
