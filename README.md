@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="llm_authorship_cycle.png" alt="Authorship Privacy" style="width:60%; max-width:500px;">
+  <img src="llm_authorship_cycle.png" alt="Authorship Privacy" style="width:40%; max-width:500px;">
 </div>
 
 
