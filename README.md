@@ -1,7 +1,7 @@
-<div align="center" width="600">
-
-![*Authorship*Privacy](llm_authorship_cycle.png)
+<div align="center">
+  <img src="llm_authorship_cycle.png" alt="Authorship Privacy" style="width:80%; max-width:1000px;">
 </div>
+
 
 # Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking
 This is the implementation of the paper: Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking. In this work, we introduce a unified framework for studying how large language models (LLMs) engage with three interrelated dimensions of authorship: obfuscation (hiding identity), mimicking (imitating style), and verification (detecting authenticity).
