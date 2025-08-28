@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" width="600">
 
 ![*Authorship*Privacy](llm_authorship_cycle.png)
 </div>
