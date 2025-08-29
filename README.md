@@ -14,7 +14,8 @@ This is the implementation of the paper: Unraveling the Interwoven Roles of Larg
 
 ### Quick Start
 ```bash
-conda create --name AA python=3.11
+conda create --name AA python=3.11 -y
+conda activate AA
 conda install anaconda::pandas
 conda install anaconda::scikit-learn
 conda install conda-forge::openai
