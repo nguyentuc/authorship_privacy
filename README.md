@@ -9,6 +9,7 @@ This is the implementation of the paper: Unraveling the Interwoven Roles of Larg
 ### 📢 Updates
 
 **20 May 2025:** Our paper `Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking` is now out on [arXiv](https://arxiv.org/abs/2505.14195).
+
 **20 August 2025:** Our paper `Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking` is accepted at EMNLP2025 Main Conference.
 
 ### Quick Start
