@@ -12,6 +12,8 @@ This is the implementation of the paper: Unraveling the Interwoven Roles of Larg
 
 **20 August 2025:** Our paper `Unraveling the Interwoven Roles of Large Language Models in Authorship Privacy: Verification, Obfuscation, and Mimicking` is accepted at EMNLP2025 Main Conference.
 
+**29 August 2025:** We’ve released our primary code! 🎉 A reformatted version with more detailed instructions will follow soon!
+
 ### Quick Start
 ```bash
 conda create --name AA python=3.11 -y
